@@ -1,0 +1,196 @@
+-> 1er Février :
+
+Présentation du sujet du projet pour la matière projet bioinformatique :
+
+Questions :
+
+- Est-ce que dans ma famille d'ET des copies sont-elles suceptibles d'intéragir avec un gène de mon hôte ?
+ (est ce que les copies sont convervées?)
+
+Notre sujet : Arabidopsis thaliana
+
+- Objectifs :
+
+	1) Caractériser copie de la famille 
+	2) Estimer/déterminer si certaines copies de la famille sont à côté de gènes de l'hôte
+	3) Est-ce que les copies en questions ont des régions régulatrices complètes et/ou sont complètes
+
+	1) Ressources :
+
+RepBase →  Banque de séquences des ET
+TAIR → Arabidopsis Information Ressource : Download →  TAIR10 → Chromosome files
+
+1 binôme : DNA transposon (minimum  = 7 copies) de 3 types LTR, ADN et non LTR
+
+Pour chaque famille récupérer une référence 
+
+
+8 Février :
+
+Fichier TAIR10 viennent de TAIR10_Transposable_Elements.txt avec les filtres Unix (awk).
+
+
+- Combien y a-t-il de copies d'ET sur chaque chromosome?
+
+Commandes :  awk ' $1 ~ "AT1" ' TAIR10_Transposable_Elements.txt>AT1
+	     cat AT1
+
+
+- Combien y a-t-il de famille et quelles sont-elles?
+
+Commandes : // Autre méthode : awk '{print $5}' TAIR10_Transposable_Elements.txt | sort| uniq -c
+ 
+awk '{VAR=substr($5,1,20);freq[VAR]++}END{for (i in freq) printf "%s %d \n",i,freq[i]}' TAIR10_Transposable_Elements.txt >type_famille
+
+On récupère la colonne 5 (Transposon_Family), qu'on va trier (sort) et dont on va retirer les doublons a l'aide de uniq.
+Enfin on compte le nombre de fois que les noms ont été retrouvés avec -c.
+
+
+- Combien y a-t-il de types de famille et quels sont-ils?
+
+Commandes : awk '{print $6}' TAIR10_Transposable_Elements.txt | sort| uniq -c
+
+ 
+- Quelle est la liste des familles d'ET présentes dans le génome avec le nombre de copies par famille?
+
+- Quels sont les principaux types d'ET ?
+
+               
+Nous avons dû trouver 1 famille de chaque type : 1 DNA, 1 LTR, 1 LINE
+
+Nous avons donc choisi :
+
+DNA/MuDR : VANDAL14 (25 copies)
+LTR/Copia : ATCOPIA30 (33 copies)
+LINE : ATLINE1_2 (41 copies)
+
+
+15 Février :
+
+Ecriture d'un script python (extractseq.py) dont nous avons pu extraire les différentes séquences des copies de VANDAL14, ATCOPIA30 et ATLINE1_2.
+Ceux-ci représente alors 3 nouveaux fichiers : VANDAL14.txt , ATCOPIA.txt, ATLINE1_2.txt . Ils contiennent chacun les copies correspondantes à chaque famille avec leur sens, leur position de début et de fin, leur taille, le chromosome sur lequel il se trouve, ainsi que la séquence nucléotidique.
+
+
+22 Février :
+
+
+Installation de EMBOSS sur mon ordinateur sous Linux.
+Transformation de nos fichiers text de chaque copie au format FASTA. Puis on a fait la commande -water (Comparaison Smith-Waterman) avec ses fichiers FASTA contre le fichier de l'ET de référence. On a obtenue des alignements plus ou moins concluant.
+Nous avons alors pu voir qu'il y avait des copies très courte dont les résultats bien même étant de 100 % n'était pas très parlant.
+
+5 Mars : Début d'écriture du rapport introduction sur la bioinformatique et Arabidopsis thaliana.
+
+15 Mars : 
+
+Nous avons fait un bilan de là où nous en étions à ce jour.
+
+- Est ce que les éléments transposables n’interfèrent pas avec la régulation de certains gènes? Chez Arabidopsis thaliana.
+- Existe t-il des copies d'éléments transposables susceptibles d'intervenir sur la régulation de gène adjacent ?
+
+L’évolution des éléments transposables est conjointe avec l'évolution des gènes.
+
+Les ET ont tendance à être éliminé en générale, ceux observés sont ceux qui n'ont pas été éliminé, qui sont restés.
+Si on observe les ET c'est  donc qu'ils n'ont pas bougé.
+
+On se demande également l'utilité des ET dans l'organisme.
+
+Matériel données dans TAIR.
+
+Pour chaque binôme : analyse d'au moins 1 famille de chaque (LTR/ADN/LINE)
+
+utilisation aussi de copies de références issues de la base RepBase.
+
+Méthode pour l'analyse : comparaison par similarités de séquences.
+
+Entre des copies de références et les copies du génome avec 2 méthodes local d'alignement : Water et Blast
+
+Annotation sur les copies : copies incomplètes / LTR solo / copie avec deletion.
+
+
+On va donc générer des données standardisé -> Construction d'une base de données -> Faire un schema entité association
+
+Elément pouvant figurer dans la base de donnée : 
+- copie annotée complète /  pas complète
+- divergences 
+- position
+
++ discussion
+
+
+Ce jour-ci nous avons donc  fait la deuxième méthode d'alignement c'est-à-dire la méthode du BLAST grâce aux commande suivantes :
+
+Commande Blastall :
+
+formatdb -i fichierbanq.txt -p F -> (Création de la base de données sur laquelle on va pouvoir faire la comparaison)
+blastall -n 9 -p blatsn -d (base de donnée sur lequel on fait le nom de la base de donnée" "baseformatdb" -o fichier.sortie.
+
+On effectue un blatsn car il s'agit, ici, d'une comparaison de nucléotides / séquence nucléotidique contre une base de données de séquences nucléotidiques.
+
+Nous avons ainsi obtenue un nouveau fichier contenant les comparaisons entre chacune de nos familles avec les ET de références.
+
+On remarque que les résultats entre la technique de Smith-Waterman et la technique du blast ne nous donne pas les même résultats.
+
+BlastAll permet de meilleurs résultats. Les fichiers blast recupéré nous permettrons de remplir la table alignement.
+
+-> 29 Mars : 
+
+Conception du modèle Entité-Association pour la base de données, nous avons trouvé 5 entités principales : gene - chromosome - famille - copietransposon - alignement ainsi que 2 relations : 1 entre chromosome et gene et une autre chromosome et copie 
+
+On a fait directement le modèle logique nous permettant ainsi que voir les différentes relations crées et clé étrangères
+
+-> 5 Avril : 
+
+Conception SQL puis vérification grâce à MySQLWorkBench. Ensuite, nous avons entré chaque table avec ses attributs dans PostGreSQL pour entrer dans psql à partir du terminal : sudo -i -u postgres puis indication du chemin de mon dossier de travail.
+puis : psql projetbi
+
+Poursuite du rapport.
+
+
+-> 12 Avril : 
+
+Entrée des données dans la base de données. Nous avons d'abord essayé de trouver comment copier notre fichier gène dans la table gène correspondant grâce à : \copy gene from dico.tsv
+Nous avions oublié un attribut dans notre table gène par rapport au fichier que nous voulions rentrer dedans nous avons donc eut un message d'erreur etant donnée que le fichier possédait plus de colonne que le fichier de destination.
+Nous avons donc dû modifier notre table gène, mais nous nous sommes rendu compte qu'il était difficile de modifier ou supprimer cette table étant donnée qu'elle est impliquée dans d'autres table. Nous avons du tout supprimer et tout rentrer une nouvelle fois.
+
+Virgile à quant à lui fait fait un script afin d'extraire tout les gènes à partir du fichier des peptides, le fichier gène est alors : dico2.tsv 
+
+-> 20 Avril : 
+
+Fin des annotations rajoutées dans le fichiers à rentrer dans la base de données pour les copies de transposons. Par conséquent, ajout dans le code SQL d'une colonne dans notre attributs "copietrans"
+4 catégories d'annotations : complète - incomplète - délétée - court (séquence beaucoup trop courte pour pouvoir avoir un intérêt dans nos recherches.
+Problème : choix difficile parfois entre une catégorie ou une autre, il n'y a pas vraiment de mode d'emploi précis à ce sujet pour annoter de manière parfaite une copie.
+
+Poursuite du rapport.
+
+-> 31 Avril : 
+
+
+Fin de la conception de la base de données : Toutes les données ont été rentrées dans la base de données.
+
+problèmes rencontrés : La base de données a dû être refaite un bon nombre de fois car problème d'incohérence de type d'attibuts, oublie de colonne, problèmes au moment de rentrer les données.
+
+-> 2 Mai :
+
+Recherches complémentaires pour les requêtes afin de connaitre les distances à laquelle si un ET se trouve il affecterait le gène adjacent.
+Rechrches complémentaires sur les transposons, leur fonctionnement, sur Arabidopsis thaliana.
+
+-> 5 Mai:
+
+Continuation de l'écriture du rapport. Nous avons changé de support, le rapport est sous Latex maintenant.
+
+-> 6 Mai :
+
+Relecture et finitions concernant le rapport ainsi que les respects des consignes
+
+
+
+                			//Matériel et méthodes//
+
+
+- Téléchargés le 02/02:2018 sur la base de donnée TAIR10
+- Téléchargement d'emboss
+- Fichier séquence référence sur RepBase
+- Cours transposons sur emedia
+- Cours de base de données 
+- Manuel PostGreSQL
+- Fichiers Blast

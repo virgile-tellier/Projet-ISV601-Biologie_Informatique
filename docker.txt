@@ -1,6 +1,5 @@
-docker.txt
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
-
+docker container partage:
+https://www.dropbox.com/sh/pxc9pomaote3fc6/AAC_BUoiBOK2Lm4vwo_rbIX9a?dl=0
 
 docker ps -a
 
@@ -13,6 +12,3 @@ docker commit -m "message" -a "author" container_id name/name
 
 docker run --rm -it -v "d:\Roupille:\data" roupille/pbi_v3
 cd \\data/Documents/Sketches/ProjetBI/
-
-sudo -u postgres psql
-pg_ctlcluster 9.5 main start -- -m smart

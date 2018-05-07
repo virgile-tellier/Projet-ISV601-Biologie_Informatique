@@ -9,7 +9,7 @@ Questions:
 	3) est-ce que les copies en quesiton ont des régions régulatrices complètes et/ou sont complètes
 
 1) Ressources
-Repbase -> banque de séquences de référence des ET chez arabette
+Repbase -> banque de séquences de référence des ET
 TAIR -> Arabidopsis Information Resource: Download -> TAIR10 -> chromosome files
 
 1 binome ->	DNA transposon (min 7 copies)
@@ -19,9 +19,9 @@ TAIR -> Arabidopsis Information Resource: Download -> TAIR10 -> chromosome files
 pour chaque famille récupérer une référence
 
 
-Installation:-linux docker container: done
-			-package emboss: done
-			-postgre SQL: done
+Installation:-Ubuntu docker container
+			-package emboss
+			-postgre SQL:
 
 
 
@@ -62,12 +62,71 @@ LINE/L1  ATLINE1_2 -- 41
 
 ****15 Février 2018****
 
-Ecriture d'un script python pour extraire les différentes séquences des copies
+Ecriture d'un script python (extractseq.py) pour extraire les différentes séquences des copies pour chaque famille.
+Fichiers résultats: VANDAL14.txt , ATCOPIA.txt, ATLINE1_2.txt
 
+****21 Février 2018****
+
+-installation de l'outil blast+ sur le docker ubuntu.
+-reformatage des en têtes des fichiers de la semaine dernière.
 
 ****22 Février 2018****
 
--Transformation embl -> fasta: seqret VANDAL14_ref.txt
+-Récupération des références des familles
+-Production des alignemets Smith-waterman
 
-Smith-waterman
-Blast
+
+****8 Mars 2018****
+
+-Refonte des fichiers blast
+-Précision de la problématique: Role et présence des ET? Impact des ET sur gènes?
+
+****15 Mars 2018****
+
+-Refonte des fichiers blast (erreur de conception)
+
+****22 Mars 2018****
+
+-2 heures de perdues à essayer de faire marcher la commande blastn de blast2
+-apparement la commande non supportée blastall de blast+ fonctionne mieux
+
+****29 Mars 2018****
+
+-Ecriture de blastify.py (qui est une extension de extractseq.py) afin de trivialiser le processus d'obtention de fichier blast 
+-Refonte n2 des fichiers blast (changement de système de nomage des séquences)
+
+-Diane gère le début de la base de données
+
+****5 Avril 2018****
+
+-Bataille pour faire fonctionner PostgresSQL. Défaite! Mais le psql de Diane marche, donc pas très grave...
+
+****12 Avril 2018****
+
+-Refonte n3 des fichiers blast pour être conforme à la base de données
+-Ecriture d'un script (pepify.py) pour extraire les positions des gènes à partir du fichier des peptides de A.thaliana
+
+****19 Avril 2018****
+
+-Bataille n2 pour faire fonctionner PostgresSQL. Victoire!
+
+****23 Avril 2018****
+
+-Formatage de fichiers pour la conformité à la base de données à l'aide du script (tsvmaker.py) et de commandes Awk
+
+****31 Avril 2018****
+
+-psql fait des siennes à nouveau ==> résolu
+-Edition du code sql
+-Entrée du reste des données dans la BDD.
+
+
+****5 Mai 2018****
+
+-Ecriture du rapport
+
+****6 Mai 2018****
+
+-Ecriture du rapport (fin)
+-Upload des fichiers du projet sur github https://github.com/virgile-tellier/Projet-ISV601-Biologie_Informatique
+-Upload du conteneur docker sur dropbox https://www.dropbox.com/sh/pxc9pomaote3fc6/AAC_BUoiBOK2Lm4vwo_rbIX9a?dl=0
