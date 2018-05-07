@@ -1,0 +1,12 @@
+
+========================[ Mar 21, 2018  6:23 PM ]========================
+Version 2.2.26 [Sep-21-2011]
+Started database file "db/atcopia30_i/atcopia30_i.db"
+ERROR: [000.000] Could not open db/atcopia30_i/atcopia30_i.db
+
+
+========================[ Mar 21, 2018  6:26 PM ]========================
+Version 2.2.26 [Sep-21-2011]
+Started database file "ATCOPIA30.txt"
+Formatted 33 sequences in volume 0
+SUCCESS: formatted database ATCOPIA30.txt
