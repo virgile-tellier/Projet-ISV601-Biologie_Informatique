@@ -1,0 +1,254 @@
+ID   ATCOPIA30_I repbase;    DNA;    PLN; 3869 BP.
+XX
+AC   AC005970;
+XX
+DT   16-DEC-1999 (Rel. 4.11, Created)
+DT   16-DEC-1999 (Rel. 4.11, Last updated, Version 2)
+XX
+DE   Internal region of the ATCOPIA30 LTR retrotransposon.
+XX
+KW   Copia; LTR Retrotransposon; Transposable Element; ATCOPIA30_I;
+KW   ATCOPIA30_LTR; COPIA superfamily; copia-like polyprotein;
+KW   internal portion.
+XX
+OS   Arabidopsis thaliana
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+OC   Camelineae; Arabidopsis.
+XX
+RN   [1]
+RP   1-3869
+RA   Kapitonov V.V. and Jurka J.;
+RT   "ATCOPIA30_I.";
+RL   Direct Submission to Repbase Update (DEC-1999).
+XX
+RN   [2]
+RA   Kapitonov V.V. and Jurka J.;
+RT   "Molecular paleontology of transposable elements from Arabidopsis
+RT   thaliana.";
+RL   Genetica 107(1-3), 27-37 (1999).
+XX
+DR   GenBank; AC005970; Positions   24308   20440.
+XX
+CC   ATCOPIA30_I is an internal portion of ATCOPIA30, a Copia-like
+CC   LTR retrotransposon recently integrated in the genome; it is
+CC   5' truncated and flanked by the only copy of its long terminal
+CC   repeat which is deposited in Repbase Update as ATCOPIA30_LTR.
+XX
+SQ   Sequence 3869 BP; 1387 A; 560 C; 656 G; 1266 T; 0 other;
+     agttatcagc taaaaggtag atattctcat ttttttttat agaactatgt ttatttatcg        60
+     actcatggtt catagtattt atttttctat tattgaaaca aacaatatga gccgatcgat       120
+     aattatgata tagattggta aaagcatgtt ttcaatgatt cagtaaagaa gataatcatg       180
+     cttaccattt atttatctaa ttattatagc atgattcaat gattctataa agaaaatcgt       240
+     caaaaaaaaa gaatcatgtt tgttgattgt taatttatgt gaaatctatt ataataatat       300
+     aaaatatatt atttaatttg atattttatc tagttaatat tgcaactatt aaatgcccgg       360
+     tggtgaatga tgcaagcatg cattagagca tcattattgg taggttttta agaaattctt       420
+     agcattaact ttgacaaaaa ttaaatgaat aattggttta aattctaaga accagctctt       480
+     atataagagc caaagaacta gttcttagca ttaattccta gtatttttct atcttcttcg       540
+     ttttggatag ttgcatattc aatatagttc agttaatatt ttattatcta aaattctttt       600
+     acgattgatt caatattatt tagttaatac tttatttttg ataattcata tttcacaacc       660
+     atgatcgtcg tacatatatt attacttttg atattgactt ttcatatgta gatagatatc       720
+     taatattctg atttccatat atttaatact tgattgttga ttttcatata tttaatattt       780
+     gattgtccta ttactttttt ttaacaaaaa gcgttagtca acccaattct acgtttttta       840
+     attttctatg aaactttcct tgcaaagtaa tactttatta ttataagata attataatat       900
+     cgttcagaag gaattgtctg tagtaaaatc gtctttgtaa cagttctcat aatttgcaat       960
+     aaaaataaat ctaagacgaa aaaaaagata attgtaatat tttatttgtt aatgtatttt      1020
+     gaaaattaac acatattttt ttatttttga aatctagtca tatttaatca atttttttaa      1080
+     tattttagta aaccatgtca aaacttatga atctttaatt tggaactctt gatatcacag      1140
+     gagataacta tttggcattg gtactgaatg ctgaaattta tctagattca aaagatctcc      1200
+     ttgataccat caaagatggg aatcaaactc aaagtaaaga aaaattagaa gctatgattt      1260
+     ttctgcgata ccatctccat gaggatctca agaatgagta tttcagtgtg aaagatccgc      1320
+     agatcatttg gaacaatcta aagcacagtt atgatcatga gaagactatg atattatcta      1380
+     aggtccgata tgattggact catctgagac tccaagactt taaatatgta agttagtaca      1440
+     actcagcctt attcaaaata actttaaatt ggaattatgt ggagagaaaa tgatggatgc      1500
+     agataagttg gagtagacat tctctacttt ttaatgctaa taacattgtc ttgcagacac      1560
+     agtacggtga aaagggattc gtgaagtatt cccaacttat ttcttgtcta cttgtagctg      1620
+     agaaaaacaa tgagttactt ttgaaaaacc atggactatg cccatcaggt tttgctttgt      1680
+     tctctgaaac gaatgtgaca tgctatggtc aaaaaagtgg ttacaaccgt ggtcgtggcc      1740
+     gtgtatacac tagaggacta ggcagtggag ttcattttaa gaactcaaac tctcataaga      1800
+     agtgggaaaa caatgggacc tcaaagaagg ttgggagtat atgttggtta tgatttccca      1860
+     tcaataaaag tatctcgagc catccacatg ggatttattc aaaagctcga ttcgcatact      1920
+     gtcattgtaa tgagtctgtt tttccaacat tagagggata aataaacagt aagaaaaaga      1980
+     tatactttgg aatgaattat caatgtctta tcttgatcct cggactaaag agtgtgaatt      2040
+     agaagtccaa aagttaattc atttacagag cttagcaaat cagttgccct atgcatttac      2100
+     tgacccaaaa gtgtgatcaa atcacatata ccggttgcaa atgatccaat aagaataaat      2160
+     atctcctaag gacaaaaaca cgtttaaagc gtggtaaacc tattggctca aaaataaaaa      2220
+     tccttaaaaa agaaaaggga cagaaattgg cataggtaaa atagaaaaaa taattacaaa      2280
+     tgaggaatct cccgaagaga ctttagacat gacacagaaa gaaattcagt tacctgacaa      2340
+     ttaagagatc tcaactggtt atgtcatgtc tagaagaaaa tagaactgaa agcaaatcga      2400
+     cgtcgatgat attttgcttg caacatagca gttgatgtta tggatgagga tcatgaacca      2460
+     acatctattg aagagtgtac acaaagaagt gatttgccag aatggaatga agcaatagat      2520
+     gcagaattaa aatttcttgc aaagagagaa gtgtttggac cagtagtctg tacacccgaa      2580
+     agtgtaaaac cagtgggaca taaatgggtc tttgtacgaa agaagaatga aaacggtgaa      2640
+     attgtaaggc ataaagtcgc acaaggattc ccacaaagac ccggaattga ctatgaagag      2700
+     acatactctc ttgtggtgga tgcaactaca ttttggttcc ttattagtct agcagtaaaa      2760
+     gaaggacttg atttatgttt gatggatgta gtcacaacct atttatacgg tccactgaaa      2820
+     aatgacattt atatgaaaat cccagaatga tttaaaatgt cagaagcagt acaatcaaat      2880
+     tctcgagaac aatactgcat aaaattaaat cgatcccttt ataaattaaa acaatcatgg      2940
+     tgtatgtggt ataatcgcct tagtgacttg ctaaaagaat atacaaaaaa agactatgtt      3000
+     agtccatgca tctttataaa cagatttggg aaatgatttg ttataattgt agtttatgtt      3060
+     gatgatttaa atattatggg aacttctgca gagatctcct tcacagtaga atatttaaag      3120
+     aaagaatttg agaagagaga ttttggaaaa acaaaatttt gtttgggact acaaattgaa      3180
+     cacctaaata atgtaattct ggtgcatcaa gagacatata cagaaaatgt tctcaaaaga      3240
+     ttctacatgg atggagcagt ccccttgagt agcccaatgg ttgtaaggtc acttgatgtg      3300
+     gataaagatc cattatgtcc tcgggaaaac aatgaaggag ttcttagtcc tgaaatatca      3360
+     tacttaagtg caagttcatg tccaactcga agacattgga atggaattaa acatatactt      3420
+     cgttatctcc aatgtaagaa agacatgagt ctgctttttc ctaaccaatt tagaagattt      3480
+     aattggtttt gcagatgcag gatacttatc tgatctccat aaggttttgc agatgcagga      3540
+     tatttatctg atctccataa tggtagatcg taaacagaat atgtcttcac atgtattgct      3600
+     atttattggc gttctatgaa gaaaactgtt gcagccacat cttctaatca ttcagagatt      3660
+     ttagcaattc atgaaactag ccgcaagatt tttagcgtgt atggctaaga tccatagtta      3720
+     ccatatacaa aaagattgtg gtatctatgc aaggaaaaaa gctccaacaa ttatgtacaa      3780
+     agacaatgca gcatgcatcg cacaactcaa aaacatatac atcaaaggcg atagaacaaa      3840
+     ggacatctta ccaaaattct tcttcacac                                        3869
+//
+ID   ATCOPIA30_LTR repbase;    DNA;    PLN; 184 BP.
+XX
+AC   AC005970;
+XX
+DT   16-DEC-1999 (Rel. 4.11, Created)
+DT   16-DEC-1999 (Rel. 4.11, Last updated, Version 2)
+XX
+DE   Long terminal repeat from the ATCOPIA30 LTR retrotransposon.
+XX
+KW   Copia; LTR Retrotransposon; Transposable Element; ATCOPIA30_I;
+KW   ATCOPIA30_LTR; COPIA superfamily.
+XX
+OS   Arabidopsis thaliana
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+OC   Camelineae; Arabidopsis.
+XX
+RN   [1]
+RP   1-184
+RA   Kapitonov V.V. and Jurka J.;
+RT   "ATCOPIA30_LTR.";
+RL   Direct Submission to Repbase Update (DEC-1999).
+XX
+RN   [2]
+RA   Kapitonov V.V. and Jurka J.;
+RT   "Molecular paleontology of transposable elements from Arabidopsis
+RT   thaliana.";
+RL   Genetica 107(1-3), 27-37 (1999).
+XX
+DR   GenBank; AC005970; Positions   24492   24309.
+XX
+CC   ATCOPIA30_LTR is a long terminal repeat from the ATCOPIA30
+CC   Copia-like LTR retrotransposon.
+XX
+SQ   Sequence 184 BP; 60 A; 40 C; 18 G; 66 T; 0 other;
+     tgttctaaat aatagatgga tgcccattat aagattcatt ttatagaagt ctctaaaatt        60
+     acttgtacat agggttttac tttgtcaccc aagtaaaacc cttcccctcc acattgatat       120
+     aaaataccct ctattcatta gaataataca cacgtttctt cgatctctat ctctatttac       180
+     aaca                                                                    184
+//
+ID   ATCOPIA31A_I repbase;    DNA;    PLN; 4088 BP.
+XX
+AC   AJ292425;
+XX
+DT   08-NOV-2002 (Rel. 7.10, Created)
+DT   08-NOV-2002 (Rel. 7.10, Last updated, Version 1)
+XX
+DE   Arabidopsis thaliana copia-type retrotransposon ATCOPIA31A_I,
+DE   internal region.
+XX
+KW   Copia; LTR Retrotransposon; Transposable Element; ATCOPIA31A_I;
+KW   COPIA superfamily; internal region; internal portion.
+XX
+OS   Arabidopsis thaliana
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+OC   Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+OC   Camelineae; Arabidopsis.
+XX
+RN   [1]
+RA   Sato S., Nakamura Y., Kaneko T., Katoh T., Asamizu E.
+RA   and Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 3. I.
+RT   Sequence features of the regions of 4,504,864 bp covered by sixty
+RT   P1 and TAC clones.";
+RL   DNA Res 7(2), 131-135 (2000).
+XX
+RN   [2]
+RP   1-4088
+RA   Terol J., Castillo C.M., Bargues M., Perez-Alonso M.
+RA   and de Frutos R.;
+RT   "Structural and evolutionary analysis of the copia-like elements
+RT   in the Arabidopsis thaliana genome.";
+RL   Mol. Biol. Evol 18(5), 882-892 (2001).
+XX
+DR   Genbank; AJ292425; Positions     569    4656.
+XX
+SQ   Sequence 4088 BP; 1372 A; 633 C; 1134 G; 949 T; 0 other;
+     ataagtggta tcagagcttg tcacgagctt ggtacgagag agaaaaacat catgagtgaa        60
+     aaagagtctg tgatcatacc aaaattcgac ggtgactatg agcattgggc tatgctcatg       120
+     gagaatctga taagatcaaa ggagtggtgg gatatcatcg agacgggaat cccaaggacg       180
+     gagagaaacg tgattctcac cggaccgcag aggacggagc tggcggagaa gacggtgaaa       240
+     gatcacaaag tgaagaacta tctatttgcg tcaatagata aaacaatcct caagacaatc       300
+     ttgcagaagg aaacgtctaa ggatttgtgg gagtccatga agaggaaata ccaaggaaac       360
+     gatcgagttc aaagcgcaca actgcagaga ttacgcagga gctttgagat tcttgagatg       420
+     aagctgggag aaacaatcac cgggtatttc tctagagtga tggaagtcac caatgatatg       480
+     agaaatctga gtgaagacat gccagattct aaggtggtag agaagatctt gcgaactctg       540
+     gtggagaaat tcacatacgt tgtatgtgcc atagaagaat caaatgacat caagatgatg       600
+     acagtagatg gtctgcaaag ctcgttgatg gttcatgagc agaatttaag aagacatgat       660
+     gtagaagata aagtcttaaa agctgagaca caatggagac cggatggtgg aagaggtaga       720
+     ggaggaagtc caaaccgagg aagaggaaga ggaggttatc aaggaagagg acgtggccat       780
+     gtgaatagag acacggtgga gtgtttcaaa tgtcacaaaa tgggacactt caaggcagaa       840
+     tgtccaagct gggagaaaga agcaaattac atagagatgg aggaagattt gcttctcatg       900
+     gcgcatgtag aacatattgg tgaagaagag aaacatgttt ggtttctcga ttccggatgc       960
+     agcaatcaca tgtgtggtgt caaagaatgg ttcatcgagt tggaccatga cttcaagcag      1020
+     aatgtaaggc tgggagatga ccggaaaatg actgtggaag gaagaggaaa gctgagactt      1080
+     gaagttgacg gaagaaacca agtaatctcg gacgtgtact ttgttccggg gctgaagaac      1140
+     aatctcctta gtgttgggca gctgcaacaa aaggggttga gatttataat tgaggacgat      1200
+     gtgtgtgaag tgtggcataa gttggaacag agaatggtga tgcactcaac catgacaaag      1260
+     aatcgcatgt ttgctattgt tgcaactgtt agagaggcta gagagactga aggaaaaagg      1320
+     tgtcttcaag tgatcgaagc tcaagacaat ttatggcaca agagattcgg gcatcttaat      1380
+     caccatggct taagatcact tgcagaaaag gaaatggtaa agggtttacc aaagctcact      1440
+     catggagaca aagatgtgac atgcgaaatt tgtctaaagg gaaaacagat cagagagtct      1500
+     attccgaaag agagcatgtg gaaatcgact caggtcctgc agcttgttca cacagacata      1560
+     tgtggaccaa taaaccctgt atcggccagc gggaaaaggt atatccttaa ctttattgat      1620
+     gatttcagta gaaagtgttg gacctatctg ttgtccgaga agtcggaagc atttcaggcc      1680
+     ttcaaggaat ttaaagctga aactgaaaga gaatctggtc aaaaggtggt ctgtttgaga      1740
+     tcagatagag gaggagagta taactcaaag gagtttgagg agtactgcaa agaatttgga      1800
+     atcaagagac agctcacagc agcttacacg ccacaacaga acggcgtcgc agagagaaag      1860
+     aatcggagtg tgatgaacat gacgcgatgt atgctgatgg agatgtttgt accaagaaag      1920
+     ttctggcctg aagcggttca gtacgcagtg tacatactga atcgaagtcc gtcaaaggct      1980
+     ctaaaggaga taacaccaga agagaagtgg agtaattgga agccatcggt agagcacttg      2040
+     agaatttttg gttgcttagc atatgctttg gtaccgtacc agagaagaat caagcttgat      2100
+     gagaagagta tcaagtgtgt aatgtttgga gtaagcaagg aatctaaggc gtatcgttta      2160
+     tatgatcctg ctacaggaaa aatcttgatt agcagagatg ttcactttga tgaaaccaga      2220
+     ggctgggaat gggaagataa attgctggaa caagagcttg tttgggaaga ttctgttaaa      2280
+     gaacctgcag gggaagaggg tacagaagca gatcaacctg agcaacaaga acaagcggaa      2340
+     tcagaagaag aagtagtaga agaagaagct catcaaaatc aaaatttgcc gtctgttgaa      2400
+     acaggagctg ctagacagag acaaccacct atttggatga aagattatgt catcggaaac      2460
+     gcaaaggttc taatagcaga agaagaagat gagttgtttg cgatgtttgt tggaccagaa      2520
+     gatccaggaa actttgaaga agcggttcag atggaggtat ggagaaaggc tatggaagct      2580
+     gagatcgcct caataaaaga aaataacaca tgggaactgg ttgagctgcc ggaagaagga      2640
+     aaagtgattg ggttgaagtg gatcttcaaa accaagttca atgagaaagg agaaatcgac      2700
+     aaatttaagg caagactggt cgcaaaaggg taccatcaga gatacggagt cgactttcat      2760
+     gaggtatttg cgccagtggc taagtaggac acaatccggt taatactcgc cttagcagca      2820
+     gagagagatt ggagagtctt tcaacttgat gtaaagagtg ccttccttca tggagacttg      2880
+     aaggaggacg ttttcgttga gcaacctcag ggattcaaag ttgaagaaga atccaacaag      2940
+     gtatacaagc ttaagaaagc cctatatgga ctaaaacagg ccccgagagc atggtatagc      3000
+     cgcatagagg gttactttat caaggaaggg tttgaaaagt gctactgtga gcatactctg      3060
+     ttcgtgaagc aggagagaag tgatgttttg gttgtcagtg tttatgtgga tgatctcatt      3120
+     tacacaggaa gttcaatgga tatgattgag aagttcaaga catcgatgat ggaggaattc      3180
+     tcaatgactg acttgggaag aatgaaatat ttcttgggag tggaagttat tcaagatgaa      3240
+     acaggtattt tcattaacca aaggaaatat gctgcagaga ttctcaaaac gtatggaatg      3300
+     gaagattgca acccggtcaa gaatccaatt gtgccaggac agaaattaac caaggaagga      3360
+     gctggtgaac tagtagattc aaccaagtat aaacaactca ttgggagctt gaggtaccta      3420
+     accactacac gaccagactt gatttattct gtaaatctag tcagtaggta catggaaagt      3480
+     ccaactgagc tgcacatgct tgcggtgaag agaatcttga gatatgtgaa gggaactcaa      3540
+     ggttacggaa ttcagtataa acgtgggaga gttgcagagc tggtcgggtt tgttgacagt      3600
+     gattacgctg gtgatgttga tgacaggaag agtacgtccg ggtttgtgtt catgttagga      3660
+     ggaggagcaa ttgcttgggc atcaaagaaa cagcccatcg tgactttatc aacaacagaa      3720
+     gctgagttcg tgtcggctgc ttttggtgct tgtgaagcga tatggctcag aaatgtgtta      3780
+     gaagagattg gttgcagaca agaagaaggt acacttgtgt tctgtgacaa cagttccact      3840
+     ataaagttgt caagaaatcc tgtgcttcac ggaaggagca aacacattca tgtgaggtat      3900
+     cattttctta gagaactggt gaaagaagga actatcaggc ttgattactg tgctactgca      3960
+     gaccaaattg cagacatcat gaccaaggct gtgaaacgag acgtgttcga ggatcttcgt      4020
+     gaaagaatgg gagtaaggat tagagaagag taaactgaag agaaggagtt tcagtttaag      4080
+     ggagggaa                                                               4088
+//

@@ -1,0 +1,2263 @@
+########################################
+# Program: water
+# Rundate: Thu 22 Feb 2018 15:39:00
+# Commandline: water
+#    -asequence atcopia30_i.fasta
+#    -bsequence ATCOPIA30.txt
+# Align_format: srspair
+# Report_file: atcopia30_i.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:     110/161 (68.3%)
+# Similarity:   110/161 (68.3%)
+# Gaps:          31/161 (19.3%)
+# Score: 331.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      383 ttagagcatcattattggtaggtttttaag--aaattcttagcattaact    430
+                     |||||||||||||||||||| |||..|.||  .|||||||||.|  ||.|
+ATCOPIA30          1 TTAGAGCATCATTATTGGTA-GTTGCTTAGCTTAATTCTTAGGA--AATT     47
+
+ATCOPIA30_I      431 ttg---acaaaaattaaatgaataattggtttaa------att--ctaag    469
+                     |||   ||  |||||.|.||     ||  |||||      |||  .||||
+ATCOPIA30         48 TTGGTTAC--AAATTTAGTG-----TT--TTTAATCATATATTTGTTAAG     88
+
+ATCOPIA30_I      470 aaccag-ctcttatataagagccaaa--gaactagttcttagcattaatt    516
+                     |  .|| ||||||||||||||.||||  |||.|| ||||||||.||..||
+ATCOPIA30         89 A--GAGTCTCTTATATAAGAGACAAATTGAAGTA-TTCTTAGCTTTTGTT    135
+
+ATCOPIA30_I      517 cctagtatttt    527
+                     ...|..|||||
+ATCOPIA30        136 TTAAAAATTTT    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      89/117 (76.1%)
+# Similarity:    89/117 (76.1%)
+# Gaps:           7/117 ( 6.0%)
+# Score: 310.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      381 cattagagc-atcattattggtaggtttttaagaaattcttagcattaa-    428
+                     ||||| |.| |||||||..|||.||||.|||||..|||||||.||||.| 
+ATCOPIA30          1 CATTA-ACCAATCATTACCGGTGGGTTATTAAGGGATTCTTAACATTTAT     49
+
+ATCOPIA30_I      429 -ctttgacaaaaattaaatgaataattggtttaaattctaagaaccagct    477
+                      |||  |..||||||||||.|.|||||||..|||||..|||| |...|||
+ATCOPIA30         50 CCTT--AATAAAATTAAATCATTAATTGGCCTAAATCATAAG-AGGTGCT     96
+
+ATCOPIA30_I      478 cttatataagagccaaa    494
+                     |||||.|||||||||||
+ATCOPIA30         97 CTTATGTAAGAGCCAAA    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1612
+# Identity:     617/1612 (38.3%)
+# Similarity:   617/1612 (38.3%)
+# Gaps:         853/1612 (52.9%)
+# Score: 1178.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I       73 tagtatttatttttctattattgaaacaaacaatatgagccgatcgataa    122
+                     |||||   ||.|||                   |.|||      |||.||
+ATCOPIA30          1 TAGTA---ATATTT-------------------TGTGA------CGAAAA     22
+
+ATCOPIA30_I      123 ttatgatatagattggtaaaagcatgttttcaatgattcagtaaagaaga    172
+                     .||                    |||||.|.||.||||            
+ATCOPIA30         23 GTA--------------------ATGTTATTAAAGATT------------     40
+
+ATCOPIA30_I      173 taatcatgcttaccatttatttatctaattattatagcatgattc---aa    219
+                           ||.||||.|||          ||| |||||     ||||   ||
+ATCOPIA30         41 ------TGTTTACTATT----------ATT-TTATA-----ATTCTGGAA     68
+
+ATCOPIA30_I      220 tgattctataaagaaaatcgtcaaaaaaaaagaatcatgtttgttgattg    269
+                     || ||.||||||         .||.|.||||||             |||.
+ATCOPIA30         69 TG-TTTTATAAA---------TAAGAGAAAAGA-------------ATTC     95
+
+ATCOPIA30_I      270 t-taatttatgtgaaatctattataataatataaaatatattatttaatt    318
+                     | |||||...|||  ||||||.|||||||||      |||    |||.|.
+ATCOPIA30         96 TATAATTCTCGTG--ATCTATAATAATAATA------ATA----TTAGTA    133
+
+ATCOPIA30_I      319 tgatattttatctagttaatattgcaactattaaatgcccggtggtgaat    368
+                     ||||      |.|.||||.||||    ||.||                  
+ATCOPIA30        134 TGAT------TGTTGTTATTATT----CTTTT------------------    155
+
+ATCOPIA30_I      369 gatgcaagcatgcattagagcatcattattggtaggtttttaagaaattc    418
+                                   |||.|       |||||                   
+ATCOPIA30        156 --------------TTATA-------TATTG-------------------    165
+
+ATCOPIA30_I      419 ttagcattaactttgacaaaaattaaatgaataattggtttaaattctaa    468
+                                       |||||.|||| ||.||||  |||.|.|.|   
+ATCOPIA30        166 ------------------AAAATAAAAT-AACAATT--TTTTACTCC---    191
+
+ATCOPIA30_I      469 gaaccagctcttatataagagccaaagaactagttcttagcattaattcc    518
+                            ||||| |.||.||           |.||||||  .||||    
+ATCOPIA30        192 -------CTCTT-TTTACGA-----------ATTTCTTA--TTTAA----    216
+
+ATCOPIA30_I      519 tagtatttttctatcttcttcgttttggatagttgcatattcaatatagt    568
+                      |.|||.|||     ||.|||.||||      |||| .||.|||      
+ATCOPIA30        217 -ACTATATTT-----TTTTTCTTTTT------TTGC-CATCCAA------    247
+
+ATCOPIA30_I      569 tcagttaatattttattatctaaaattcttttacgattgattcaatatta    618
+                           |.||..||.||.||||||  ||.|||||||.|...|.||.||||
+ATCOPIA30        248 ------ACTAAATTCTTCTCTAAA--TCGTTTACGAATCTATAAAGATTA    289
+
+ATCOPIA30_I      619 tttagttaatactttatttttgataattcatatttcacaaccatgatcgt    668
+                     |                     .||||||           .|.|||||  
+ATCOPIA30        290 T---------------------GTAATTC-----------TCGTGATC--    305
+
+ATCOPIA30_I      669 cgtacatatattattacttttgatattgacttttcatatgta-gatagat    717
+                           ||||.||.||      |||          ||| ||| |||    
+ATCOPIA30        306 ------TATAATAATA------ATA----------ATA-GTATGAT----    328
+
+ATCOPIA30_I      718 atctaatattctgatt-tccatatatttaatacttgattgttgattttca    766
+                           ||||.|.||| |||   |.||||||      ||.|..|...|||
+ATCOPIA30        329 ------TATTGTCATTATCC---TTTTTAAT------TTATAAAAAGTCA    363
+
+ATCOPIA30_I      767 tatatttaatatttgattgtcctattacttttttttaacaaaaagcgtta    816
+                     ||    .|||||                           |||||  ||| 
+ATCOPIA30        364 TA----AAATAT---------------------------AAAAA--GTT-    379
+
+ATCOPIA30_I      817 gtcaac-ccaattctacgttttttaattttctatgaaactttccttgcaa    865
+                          | |||   ||.|.|||.||       ||.|||.||.||.||| ||
+ATCOPIA30        380 -----CTCCA---CTCCCTTTGTT-------TACGAATCTCTCATTG-AA    413
+
+ATCOPIA30_I      866 agtaatactttattattataagataattataatatcgttcagaaggaatt    915
+                     ||  .||||||.||.||         |||.|||..|.|.||         
+ATCOPIA30        414 AG--CTACTTTTTTTTT---------TTACAATCACATCCA---------    443
+
+ATCOPIA30_I      916 gtctgtagtaaaatcgtcttt-----gtaacagttctcat-aatttgcaa    959
+                              |.||.||  .||     |||||   ||| || ||.||.|||
+ATCOPIA30        444 ---------ATAACCG--GTTGGCACGTAAC---TCT-ATCAAATTCCAA    478
+
+ATCOPIA30_I      960 ------taaaaataaatctaagacgaaaaaaaagataattgtaatatttt   1003
+                           ||..|||   |||           |||||               
+ATCOPIA30        479 AAGCTTTATCAAT---TCT-----------AAAGA---------------    499
+
+ATCOPIA30_I     1004 atttgttaatgtattttgaaaattaacacatatttttttatttttgaaat   1053
+                         |||....|.|||..|.||||||           ||||||||     
+ATCOPIA30        500 ----GTTCGGCTCTTTAAATAATTAA-----------TTATTTTT-----    529
+
+ATCOPIA30_I     1054 ctagtcatatttaatcaatttttttaatattttagtaaaccatgtcaaaa   1103
+                            ||||||                                     
+ATCOPIA30        530 -------TATTTA-------------------------------------    535
+
+ATCOPIA30_I     1104 cttatgaatctttaatttggaactcttgatatcacaggagataactattt   1153
+                               ||||||||    |||.|                       
+ATCOPIA30        536 ----------TTTAATTT----CTCCT-----------------------    548
+
+ATCOPIA30_I     1154 ggcattggtactgaatgctgaaatttatctagattcaaa-agatctcctt   1202
+                                         |||||      .|||.||| ||||.|||||
+ATCOPIA30        549 --------------------AAATT------CATTAAAAGAGATGTCCTT    572
+
+ATCOPIA30_I     1203 gataccatcaaagatgggaatcaaactcaaagtaaagaaaaattagaagc   1252
+                                ||||...|||||||                  |||    
+ATCOPIA30        573 -----------AGATCTCAATCAAA------------------TAG----    589
+
+ATCOPIA30_I     1253 tatgatttttctgcgataccatctccatgaggatctcaagaatgagtatt   1302
+                                                         .||.|||..|||||
+ATCOPIA30        590 ------------------------------------TAACAATATGTATT    603
+
+ATCOPIA30_I     1303 tcagtgtgaaagatccgcagatcatttggaacaatctaaagcacagttat   1352
+                     |||                             |||||||           
+ATCOPIA30        604 TCA-----------------------------AATCTAA-----------    613
+
+ATCOPIA30_I     1353 gatcatgagaagactatgatattatctaaggtccgatatg-attggactc   1401
+                           ||.|.||     |.|||||||         |||| .|||   ||
+ATCOPIA30        614 ------GAAAGGA-----AAATTATCT---------TATGTGTTG---TC    640
+
+ATCOPIA30_I     1402 at----ctgagactccaagactttaaatatgtaagttagtacaactcagc   1447
+                     ||    |||    |..||    |.||||||.|   ||             
+ATCOPIA30        641 ATATTGCTG----TTAAA----TCAAATATTT---TT-------------    666
+
+ATCOPIA30_I     1448 cttattcaaaataactttaaattggaattatgtggagagaaaatgatgga   1497
+                     ||||...||||.|||     |.|..||||||....|.|||||| .||.||
+ATCOPIA30        667 CTTACCTAAAAAAAC-----AGTCAAATTATAAAAAAAGAAAA-CATTGA    710
+
+ATCOPIA30_I     1498 tgcagataagttggagtagacattctctactttttaatgctaataa----   1543
+                          |.||.||      ||||            ||.|||||||||    
+ATCOPIA30        711 -----ACAATTT------GACA------------TATTGCTAATAAATTA    737
+
+ATCOPIA30_I     1544 ---cattgtcttgcagacacagtacggtgaaaagggattcgtgaagtatt   1590
+                        ||||.|||           ||.|||                 .||| 
+ATCOPIA30        738 AATCATTTTCT-----------TATGGT-----------------ATAT-    758
+
+ATCOPIA30_I     1591 cccaacttatttcttgtctacttgtagctgagaaaaacaatgag---tta   1637
+                        ||..||||                       ||.|.||.||   |||
+ATCOPIA30        759 ---AATCTATT-----------------------AATCTATAAGCATTTA    782
+
+ATCOPIA30_I     1638 cttttgaaaaac   1649
+                     .|||||||||||
+ATCOPIA30        783 ATTTTGAAAAAC    794
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1137
+# Identity:     479/1137 (42.1%)
+# Similarity:   479/1137 (42.1%)
+# Gaps:         534/1137 (47.0%)
+# Score: 900.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      442 taaatgaataattggtttaaattctaagaaccagctcttatataagagcc    491
+                     ||.||.||.||   |||||     |||          ||||||.|     
+ATCOPIA30          1 TATATCAAGAA---GTTTA-----TAA----------TTATATCA-----     27
+
+ATCOPIA30_I      492 aaagaactagttcttag-cattaattcctagtatttttctatcttcttcg    540
+                               |.||.|| ||||      |.|||||.|..||..||.|..|
+ATCOPIA30         28 ----------TGCTAAGTCATT------TTGTATTGTGATAAGTTATAAG     61
+
+ATCOPIA30_I      541 ttttg-gatagttgcatattcaatatagt------tcagttaatatttta    583
+                     ||.|| ||||..|..|||||   ||..||      |||.|   ||||.||
+ATCOPIA30         62 TTATGTGATATATTTATATT---TACCGTCTGAACTCATT---TATTATA    105
+
+ATCOPIA30_I      584 ttatctaaaattcttttacga-ttgattcaatattatttagttaatactt    632
+                     |.||.|||||  ..||.|||| |||.|.|||        .||.||.|.|.
+ATCOPIA30        106 TCATATAAAA--AATTAACGAGTTGTTACAA--------CGTGAAAAGTA    145
+
+ATCOPIA30_I      633 t--atttttgataattcatatttcacaaccatgatcgtcgtacatatatt    680
+                     |  |||||     ||.|| ||         |.|||           ||||
+ATCOPIA30        146 TGAATTTT-----ATCCA-AT---------AAGAT-----------TATT    169
+
+ATCOPIA30_I      681 attacttttgatattgacttttcatatgtagatagatatctaatattctg    730
+                     ||||          |.|||    ||.|.||||||      .|||||    
+ATCOPIA30        170 ATTA----------TCACT----ATCTCTAGATA------AAATAT----    195
+
+ATCOPIA30_I      731 atttccatatatttaatacttgattgttgattttc-atatatttaatatt    779
+                              ||.||||                ||| |||        |||
+ATCOPIA30        196 ---------TAGTTAA----------------TTCGATA--------ATT    212
+
+ATCOPIA30_I      780 tgattgtcctattactttt---ttttaacaaaaagcgttagtcaacccaa    826
+                     ||||||||  |..|..|||   |||.|||||||        ||.|||  |
+ATCOPIA30        213 TGATTGTC--AACAAATTTGAATTTGAACAAAA--------TCTACC--A    250
+
+ATCOPIA30_I      827 ttctacgttttttaattttctatgaaactttccttgcaaagtaatacttt    876
+                     ||.| |||                ||.|||..|.||.|.|||||||    
+ATCOPIA30        251 TTGT-CGT----------------AATCTTCGCATGTACAGTAATA----    279
+
+ATCOPIA30_I      877 attattataaga----taattataatatcgttcagaaggaattgtctgta    922
+                       |...||||||    ||| ||||||||.|      .||.|||       
+ATCOPIA30        280 --TCGAATAAGATTAGTAA-TATAATATAG------GGGTATT-------    313
+
+ATCOPIA30_I      923 gtaaaatcgtctttgtaacagttctcataatttgcaataaaaataaatct    972
+                                      |.|||       ||||||.|.|.||| .|.|.|
+ATCOPIA30        314 -----------------ATAGT-------ATTTGCCACATAAA-CAGTGT    338
+
+ATCOPIA30_I      973 aagacgaaa----aaaaagataattgtaatattttatttgttaatgtatt   1018
+                     |||| .|||    |.|||.|||||.|                |.|..|||
+ATCOPIA30        339 AAGA-TAAACAGTAGAAAAATAATGG----------------ACTTAATT    371
+
+ATCOPIA30_I     1019 ttgaaaattaacacatatttttttatttttgaaatctagtcatatttaat   1068
+                     |||||                   .||||||||||.|||           
+ATCOPIA30        372 TTGAA-------------------GTTTTTGAAATATAG-----------    391
+
+ATCOPIA30_I     1069 caatttttttaatattttagtaaaccatgtcaaaacttatgaatctttaa   1118
+                                |||                        ||||     |||
+ATCOPIA30        392 -----------ATA------------------------ATGA-----TAA    401
+
+ATCOPIA30_I     1119 tttggaactcttgatatcacaggagataactatttggcattggtactgaa   1168
+                     |     ||.|||||.|                     ||.||||  ||.|
+ATCOPIA30        402 T-----ACCCTTGAAA---------------------CAATGGT--TGTA    423
+
+ATCOPIA30_I     1169 tgctga-aatttatctagattcaaaagatctccttgataccatcaaaga-   1216
+                     ..||.| |||||   |.|.|.||||  ||||             .|||| 
+ATCOPIA30        424 GCCTCATAATTT---TTGTTGCAAA--ATCT-------------TAAGAT    455
+
+ATCOPIA30_I     1217 -tgggaatcaaactcaaagtaaagaaaaattagaagctatgatttttctg   1265
+                      |.||.|||||.|.|.|..||.|.|.|.||||     |.|.||.||    
+ATCOPIA30        456 TTTGGTATCAATCCCTATATATATACACATTA-----TCTAATCTT----    496
+
+ATCOPIA30_I     1266 cgataccatctccatgaggatctcaagaatgagtatttcagtgtgaaaga   1315
+                                                 ||||     ||||         
+ATCOPIA30        497 ----------------------------ATGA-----TCAG---------    504
+
+ATCOPIA30_I     1316 tccgcagatcat-ttggaacaatctaaagcacagttatgatcatgagaag   1364
+                          |||.||| |||..| ||||||||    ||.|||.|.|||.||.| 
+ATCOPIA30        505 -----AGACCATATTGTTA-AATCTAAA----AGCTATCACCATCAGGA-    543
+
+ATCOPIA30_I     1365 actatgatattatctaaggtccgatatgattggactcatctgagactcca   1414
+                                                 ||||    |||          |
+ATCOPIA30        544 ----------------------------ATTG----CAT----------A    551
+
+ATCOPIA30_I     1415 agactttaaatatgtaagtta-gtacaact---cagccttattcaaaata   1460
+                     |     ||||.|   |||..| |.||||.|   ||    |||..||||||
+ATCOPIA30        552 A-----TAAAAA---AAGCAACGAACAAATGTACA----TATAAAAAATA    589
+
+ATCOPIA30_I     1461 -actttaaattggaattatgtggagagaa-aatgatggatgcagataagt   1508
+                      ||   |.|.|.||||.|    || |||| |||        ||.||||||
+ATCOPIA30        590 CAC---ACAATAGAATAA----GA-AGAAGAAT--------CACATAAGT    623
+
+ATCOPIA30_I     1509 tggagtagacattctctactttttaatgctaataaca   1545
+                             |||            .|||||    ||||
+ATCOPIA30        624 --------ACA------------AAATGC----AACA    636
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 219
+# Identity:     159/219 (72.6%)
+# Similarity:   159/219 (72.6%)
+# Gaps:          34/219 (15.5%)
+# Score: 626.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      336 aata-ttgcaactattaaatgcccggtggtgaatgatgcaagcatgcatt    384
+                     |||| ||||||              |||.||                 ||
+ATCOPIA30          2 AATAGTTGCAA--------------GTGTTG-----------------TT     20
+
+ATCOPIA30_I      385 agagcatcattattggtaggtttttaagaaattcttagcattaactttga    434
+                     |||.|||||||||||||..|||.|||||||.|||||||||||||.|||.|
+ATCOPIA30         21 AGACCATCATTATTGGTGAGTTCTTAAGAAGTTCTTAGCATTAAGTTTTA     70
+
+ATCOPIA30_I      435 caaaaattaaatgaataattggtttaaattctaagaaccagctcttatat    484
+                     ||||||||||||.|||||||.||||||||||||||||.||.|||||||||
+ATCOPIA30         71 CAAAAATTAAATAAATAATTAGTTTAAATTCTAAGAATCAACTCTTATAT    120
+
+ATCOPIA30_I      485 aagagccaaagaactagttcttagcattaattcctagtatttttctatct    534
+                     ||||||||||.|.|.|||||||| .|.||||||.|.|.|.||||||||.|
+ATCOPIA30        121 AAGAGCCAAAAACCCAGTTCTTA-TAATAATTCTTGGCAGTTTTCTATTT    169
+
+ATCOPIA30_I      535 tcttcgttttggata-gtt    552
+                     ||||..|||||.|.| |||
+ATCOPIA30        170 TCTTACTTTTGAAAATGTT    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:     117/229 (51.1%)
+# Similarity:   117/229 (51.1%)
+# Gaps:          89/229 (38.9%)
+# Score: 258.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      454 tggtttaaattctaagaaccagctcttatat----------aagagccaa    493
+                     ||||..||.||     .|||||     ||||          |||||..||
+ATCOPIA30          1 TGGTAAAAGTT-----GACCAG-----ATATCAAGATTAAAAAGAGTGAA     40
+
+ATCOPIA30_I      494 agaactagttcttagcatt---aattcctagtatttttctatcttcttcg    540
+                       ||||          |||   ||    |||      ||.||       |
+ATCOPIA30         41 --AACT----------ATTGAAAA----TAG------TCAAT-------G     61
+
+ATCOPIA30_I      541 ttttggatagttgca--tattcaatatag----ttcagttaatattttat    584
+                     |.|| ||.|.|||||  ||.|||||.|||    |.|||..|||.|||.||
+ATCOPIA30         62 TCTT-GAAAATTGCATGTAGTCAATGTAGGAATTACAGAAAATCTTTGAT    110
+
+ATCOPIA30_I      585 tatctaaaattctt-ttacgattgattcaatattatttagttaat-actt    632
+                            ||||.|| ||.|.|||.||||          |||.||| .|||
+ATCOPIA30        111 -------AATTTTTGTTGCCATTAATTC----------AGTCAATGGCTT    143
+
+ATCOPIA30_I      633 t--at-ttttgataattcatatttcacaa    658
+                     |  || ||||||||   |||     ||||
+ATCOPIA30        144 TGAATATTTTGATA---CAT-----ACAA    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      23/51 (45.1%)
+# Similarity:    23/51 (45.1%)
+# Gaps:          23/51 (45.1%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I     1423 aatatgtaagttagtacaactcagccttattcaaaataactttaaattgg   1472
+                     ||.|||||.|        .|||               ||||||.||||.|
+ATCOPIA30          1 AAAATGTATG--------GCTC---------------AACTTTGAATTTG     27
+
+ATCOPIA30_I     1473 a   1473
+                     |
+ATCOPIA30         28 A     28
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      84/113 (74.3%)
+# Similarity:    84/113 (74.3%)
+# Gaps:          20/113 (17.7%)
+# Score: 317.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      886 agataattataata-tcgttcagaaggaattgtctgtagtaaaatcgtct    934
+                     |||| .|.||||.| |||    ||||||||||||.||.|||.||||||||
+ATCOPIA30          2 AGAT-CTAATAAGAGTCG----GAAGGAATTGTCCGTTGTAGAATCGTCT     46
+
+ATCOPIA30_I      935 ttgtaacagttctcataatttgcaataaa-aataaatctaagac--gaaa    981
+                     .||||||||           ||||||||| ||||||||||||||  |.||
+ATCOPIA30         47 ATGTAACAG-----------TGCAATAAATAATAAATCTAAGACTGGCAA     85
+
+ATCOPIA30_I      982 aaaaagataattg    994
+                     |||||.|||||||
+ATCOPIA30         86 AAAAAAATAATTG     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      33/57 (57.9%)
+# Similarity:    33/57 (57.9%)
+# Gaps:          18/57 (31.6%)
+# Score: 84.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I     3638 catcttctaatcattcagagattttagcaa-ttcatgaa-actagccgca   3685
+                     ||..||.||   ||||.||||       || |||||||| |||.|     
+ATCOPIA30          1 CAATTTGTA---ATTCCGAGA-------AATTTCATGAAGACTCG-----     35
+
+ATCOPIA30_I     3686 agatttt   3692
+                      ||||.|
+ATCOPIA30         36 -GATTAT     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:      21/33 (63.6%)
+# Similarity:    21/33 (63.6%)
+# Gaps:          12/33 (36.4%)
+# Score: 70.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I     1033 atatttttttatttttgaaatctagtcatattt   1065
+                     |||||      |||||||    |||  ||||||
+ATCOPIA30          3 ATATT------TTTTTGA----TAG--ATATTT     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:      92/158 (58.2%)
+# Similarity:    92/158 (58.2%)
+# Gaps:          47/158 (29.7%)
+# Score: 218.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      383 ttagagcatcattattggtaggtt-tttaaga--aattcttagcattaac    429
+                     ||||| ..|.|||.|||.|  .|| |.|||||  ||||||||.||  || 
+ATCOPIA30          2 TTAGA-TTTAATTTTTGCT--CTTATATAAGAGCAATTCTTACCA--AA-     45
+
+ATCOPIA30_I      430 tttgacaaaaattaaatgaataattggtttaaa-ttctaagaaccagctc    478
+                        ||.|..|||||||..|         ||||| ||||||        ||
+ATCOPIA30         46 ---GAAATCAATTAAAACA---------TTAAATTTCTAA--------TC     75
+
+ATCOPIA30_I      479 ttatataagagcca-aagaactagt----tcttagcattaattcctagta    523
+                     |.|| |||    || ||||||||||    .||||.||.||      ||.|
+ATCOPIA30         76 TAAT-TAA----CATAAGAACTAGTCTGAGCTTACCAATA------AGGA    114
+
+ATCOPIA30_I      524 tttttcta    531
+                      |.|||||
+ATCOPIA30        115 -TGTTCTA    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 841
+# Identity:     353/841 (42.0%)
+# Similarity:   353/841 (42.0%)
+# Gaps:         404/841 (48.0%)
+# Score: 704.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      605 ttgattcaa--------tattatttagttaatactttatttttgataatt    646
+                     ||.||||||        |||||.|||.|||.||  |||.|||| ||||  
+ATCOPIA30          2 TTAATTCAAAATAAATTTATTAGTTATTTAGTA--TTAGTTTT-ATAA--     46
+
+ATCOPIA30_I      647 catatttcacaaccatgatcgtcgtacatatattattacttttgatattg    696
+                           |||||          ||..|||||    ||||||.|||      
+ATCOPIA30         47 ------TCACA----------TCAAACATA----ATTACTATTG------     70
+
+ATCOPIA30_I      697 acttttcatatgtagatagatatctaatattctgatttccatatatttaa    746
+                      |||||             ||||.|  |.|||.||.|  ||| |||||||
+ATCOPIA30         71 -CTTTT-------------ATATTT--TGTTCAGAAT--CAT-TATTTAA    101
+
+ATCOPIA30_I      747 tacttgattgttgattttcatatatttaatatttgattgtcctattac--    794
+                     .|           |||...||||| .||.|.|.|.|||..|||| .||  
+ATCOPIA30        102 AA-----------ATTAAAATATA-ATAGTGTATTATTAACCTA-GACAA    138
+
+ATCOPIA30_I      795 --ttttttttaacaaa----aagcgttagtcaacccaattctacgttttt    838
+                       |.||||.|||.|||    |||                  ||| .|.|.
+ATCOPIA30        139 GATGTTTTATAAGAAAATGGAAG------------------TAC-ATATG    169
+
+ATCOPIA30_I      839 taattttctatgaaactttccttgcaaagtaatactttattattataaga    888
+                     .||.|||||.||.|  |||||         |||..|||| ||||||||||
+ATCOPIA30        170 GAAATTTCTGTGGA--TTTCC---------AATGATTTA-TATTATAAGA    207
+
+ATCOPIA30_I      889 taattataatatcgttcagaaggaattgtctgtagtaaaatcgtctttgt    938
+                     .|                            |||||       |.||.|.|
+ATCOPIA30        208 GA----------------------------TGTAG-------GCCTATAT    222
+
+ATCOPIA30_I      939 aacagttctcataatttgcaataaaaataaatctaag-----acgaaaaa    983
+                     ||.|     ||    ||||..|||..||..||..|||     ||||.||.
+ATCOPIA30        223 AAAA-----CA----TTGCCCTAAGCATGTATACAAGGATATACGACAAG    263
+
+ATCOPIA30_I      984 aaagataatt--gtaatattttatttgttaatgtattttgaaaattaaca   1031
+                     |||.|.||.|  |.|||||           |..||||||.|||||     
+ATCOPIA30        264 AAATACAAATACGAAATAT-----------ACATATTTTCAAAAT-----    297
+
+ATCOPIA30_I     1032 catatttttttatttttgaaatctagtcatatttaatcaatttttttaat   1081
+                                        ||||       |||| |||||          
+ATCOPIA30        298 -------------------AATC-------ATTT-ATCAA----------    310
+
+ATCOPIA30_I     1082 attttagtaaaccatgtcaaaacttatgaatctttaatttggaactcttg   1131
+                             ||||   ||.||||      ||     |||            
+ATCOPIA30        311 --------AAAC---GTAAAAA------AA-----AAT------------    326
+
+ATCOPIA30_I     1132 atatcacaggagataactat-ttggcattggtactgaatgctgaaattta   1180
+                      |||||            || |||          |||.||.|||||.|  
+ATCOPIA30        327 -TATCA------------ATGTTG----------TGAGTGATGAAAAT--    351
+
+ATCOPIA30_I     1181 tctagattcaaaagatctccttgataccatcaaagatgggaatcaaactc   1230
+                                                    |||||    ||||  |||.
+ATCOPIA30        352 -------------------------------AAAGA----AATC--ACTA    364
+
+ATCOPIA30_I     1231 aaagtaaagaaaaattagaagctatgatttttctgcgataccatctccat   1280
+                     |||  .|.|||.||.|||.|     .||||||                |.
+ATCOPIA30        365 AAA--CATGAACAAGTAGCA-----TATTTTT----------------AA    391
+
+ATCOPIA30_I     1281 gaggatctcaagaatgagtatttcagtgtgaaagatccgcagatcatttg   1330
+                     ||.||                |||| |.|||||         ||.|    
+ATCOPIA30        392 GACGA----------------TTCA-TATGAAA---------ATGA----    411
+
+ATCOPIA30_I     1331 gaacaat-cta--aagcacagttatgatcatgagaagacta-tgatatta   1376
+                         ||| |||  ||.||.|.||.|          |.|.|| .||||||.
+ATCOPIA30        412 ----AATACTACTAATCAAAATTTT----------AAAATAGGGATATTT    447
+
+ATCOPIA30_I     1377 tctaaggtccgatatgattggactcatctgagactccaaga   1417
+                     |.|.||.|    |||||                  ||||||
+ATCOPIA30        448 TATGAGTT----TATGA------------------CCAAGA    466
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5011
+# Identity:    2213/5011 (44.2%)
+# Similarity:  2213/5011 (44.2%)
+# Gaps:        2182/5011 (43.5%)
+# Score: 3843.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I       16 ggt-agatattctcattttt--------ttttatagaactatgttt---a     53
+                     ||| ||||.|.||  ||.||        |||.||..|  |||||||   |
+ATCOPIA30         18 GGTAAGATGTCCT--TTGTTCTATCGCCTTTGATGTA--TATGTTTTTGA     63
+
+ATCOPIA30_I       54 tttat-cgactcatggttcatagtattt-------attttt----ctatt     91
+                     .||.| |||..||||.|.|||.||.|||       |||.||    ||.||
+ATCOPIA30         64 GTTGTGCGATGCATGCTGCATTGTCTTTGTACATAATTGTTGGAGCTTTT    113
+
+ATCOPIA30_I       92 --------attgaaacaaacaatatgagccgatcgataattatgatatag    133
+                             ||.||.|| .|||||.|              ||.|| |||| 
+ATCOPIA30        114 TTCCTTGCATAGATAC-CACAATCT--------------TTTTG-TATA-    146
+
+ATCOPIA30_I      134 attggtaa--aagcatgttttcaatgattcagtaaagaagataatcatgc    181
+                       ||||||  |.|.||.||..|.|| |..|..||||      ||||.|||
+ATCOPIA30        147 --TGGTAACTATGGATCTTAGCCAT-ACACGCTAAA------AATCTTGC    187
+
+ATCOPIA30_I      182 -------ttaccatttatt-------tatct-aattattatagcat---g    213
+                            ||  |||..|||       |.||| |||.||||.|..||   |
+ATCOPIA30        188 GGCTAGTTT--CATGAATTGCTAAAATCTCTGAATGATTAGAAGATGTGG    235
+
+ATCOPIA30_I      214 attcaa----tgattctataaagaaaatcgtcaaaaaaaaagaat-catg    258
+                     .|.|||    |  ||||..|.||||   ||.|||.|||.|..||| |   
+ATCOPIA30        236 CTGCAACAGTT--TTCTTCATAGAA---CGCCAATAAATAGCAATAC---    277
+
+ATCOPIA30_I      259 tttgttgattgttaatttatgtgaa-atctattataataatataaaatat    307
+                                       ||||||| |..||||.|    .|.||..||.|
+ATCOPIA30        278 ------------------ATGTGAAGACATATTCT----GTTTACGATCT    305
+
+ATCOPIA30_I      308 ---attattta-atttgatattttatctagttaatat--tgcaactatta    351
+                        |||||..| ||..||||            |||||  ||||.||...|
+ATCOPIA30        306 ACCATTATGGAGATCAGATA------------AATATCCTGCATCTGCAA    343
+
+ATCOPIA30_I      352 aatgcccggtggtgaatgatgcaagcatgcattagagcatcattattggt    401
+                     ||   ||         |.|||             ||| ||||     |.|
+ATCOPIA30        344 AA---CC---------TTATG-------------GAG-ATCA-----GAT    362
+
+ATCOPIA30_I      402 aggtttttaagaaattcttagcattaactttgacaaa---aattaaatga    448
+                     |.||         ||.||  ||||   ||   .||||   ||||||||  
+ATCOPIA30        363 AAGT---------ATCCT--GCAT---CT---GCAAAACCAATTAAAT--    393
+
+ATCOPIA30_I      449 at----aattggtttaaattctaagaaccagc-------------tctta    481
+                     .|    |||||||        ||.|||..|||             |||||
+ATCOPIA30        394 CTTCTAAATTGGT--------TAGGAAAAAGCAGACTCATGTCTTTCTTA    435
+
+ATCOPIA30_I      482 tataagagccaaagaactagttcttagcattaattcctagtatttttcta    531
+                     .||..|||..||.|||.||     ||...||||||||       .|||.|
+ATCOPIA30        436 CATTGGAGATAACGAAGTA-----TATGTTTAATTCC-------ATTCCA    473
+
+ATCOPIA30_I      532 tcttcttcgttttgga----tagttgcatattcaatatagttcagt-taa    576
+                     ...||||||..|||||    .|.||||           |.||.||| |.|
+ATCOPIA30        474 ATGTCTTCGAGTTGGACATGAACTTGC-----------ACTTAAGTATGA    512
+
+ATCOPIA30_I      577 tattttattatctaa-aattcttttacgattgattcaatattattt----    621
+                     |||||.|..| |||| ||.||.||              .|||.|||    
+ATCOPIA30        513 TATTTCAGGA-CTAAGAACTCCTT--------------CATTGTTTTCCC    547
+
+ATCOPIA30_I      622 -agttaatactttatttttgataattcatat---------ttcacaacca    661
+                      ||...|||.|..||.|||    ||.||.||         || |||||||
+ATCOPIA30        548 GAGGACATAATGGATCTTT----ATCCACATCAAGTGACCTT-ACAACCA    592
+
+ATCOPIA30_I      662 -------------------tgatcgtcgtacatatattattacttttgat    692
+                                        ||.||  |.|.|||.||..||  |||||||.
+ATCOPIA30        593 TTGGGCTACTCAAGGGGACTGCTC--CATCCATGTAGAAT--CTTTTGAG    638
+
+ATCOPIA30_I      693 attgac-ttttcatatgtagatagatatctaatattctgat---------    732
+                     |   || |||||   |||  |||..|.|||       ||||         
+ATCOPIA30        639 A---ACATTTTC---TGT--ATATGTCTCT-------TGATGCACCAGAA    673
+
+ATCOPIA30_I      733 ttccatatatttaatacttgattgttgattttcatatatttaatatttga    782
+                     ||.||| ||||||             |.|.||||          ||||| 
+ATCOPIA30        674 TTACAT-TATTTA-------------GGTGTTCA----------ATTTG-    698
+
+ATCOPIA30_I      783 ttgtcctattacttttttttaacaaaaagcgttagtcaacccaattctac    832
+                     |.||||.|            |||||||                       
+ATCOPIA30        699 TAGTCCCA------------AACAAAA-----------------------    713
+
+ATCOPIA30_I      833 gttttttaattttctatgaaa-ctttccttgcaaagtaatactttattat    881
+                        ||||..|||||.|  ||| ||.||.|..||    |||.||||.||  
+ATCOPIA30        714 ---TTTTGTTTTTCCA--AAATCTCTCTTCTCA----AATTCTTTCTT--    752
+
+ATCOPIA30_I      882 tataagataattataatatcgttcagaaggaattgtctgtagtaaaatcg    931
+                            |||.|||..||..||   ||||||..|.||||.||        
+ATCOPIA30        753 -------TAAATATTCTACTGT---GAAGGAGATCTCTGCAG--------    784
+
+ATCOPIA30_I      932 tctttgtaacagttctcataat-ttgcaataaaaataaatctaaga-cga    979
+                              .|||||.|||||| ||          ||||||    | |.|
+ATCOPIA30        785 ---------AAGTTCCCATAATATT----------TAAATC----ATCAA    811
+
+ATCOPIA30_I      980 aaaaaaagataattgtaatattttatttgttaa---tgtattttgaaaat   1026
+                     .|.|||..|.||||.|||.|..|.||||...||   ||| ||.|.||.||
+ATCOPIA30        812 CATAAACTACAATTATAACAAATCATTTCCCAAATCTGT-TTATAAAGAT    860
+
+ATCOPIA30_I     1027 --------taacaca---tatttttttat----ttttgaaatctagtca-   1060
+                             |||||.|   |.|||||.|||    ||||   |.|.||||| 
+ATCOPIA30        861 GCATGGACTAACATAGTCTTTTTTTGTATATTCTTTT---AGCAAGTCAC    907
+
+ATCOPIA30_I     1061 ------tatttaatca-----------atttttttaatattttagtaaac   1093
+                           .|||..|.||           |||.||||||   |||| |||  
+ATCOPIA30        908 TAAGGCGATTATACCACATACACCATGATTGTTTTAA---TTTA-TAA--    951
+
+ATCOPIA30_I     1094 catgtcaaaacttatgaatc--tttaattt--ggaactcttgatatcaca   1139
+                                  |.|.|||  ||||||||  .|.|.|.|||.|.||   
+ATCOPIA30        952 -------------AGGGATCGATTTAATTTTATGCAGTATTGTTCTC---    985
+
+ATCOPIA30_I     1140 ggagataactatttggcattggtactgaatgctgaaattt---atctaga   1186
+                      ||||     |||||  ||| |||||| .|.||||.||||   |||   |
+ATCOPIA30        986 -GAGA-----ATTTG--ATT-GTACTG-CTTCTGACATTTTAAATC---A   1022
+
+ATCOPIA30_I     1187 ttc------------aaaagatctccttgat------acc--atcaaa--   1214
+                     |||            |.|| ||.||.||..|      |||  || |||  
+ATCOPIA30       1023 TTCTGGGATTTTCATATAA-ATGTCATTTTTCAGTGGACCGTAT-AAATA   1070
+
+ATCOPIA30_I     1215 -gatggga--------atcaaactcaaagtaaagaaaaattagaagctat   1255
+                      |.||.||        |||||||           |.||||  .|||...|
+ATCOPIA30       1071 GGTTGTGACTACATCCATCAAAC-----------ATAAAT--CAAGTCCT   1107
+
+ATCOPIA30_I     1256 gatttttctgcgataccatctccatgagg---------------------   1284
+                     ..||||.||||.|.||.|     ||.|||                     
+ATCOPIA30       1108 TCTTTTACTGCTAGACTA-----ATAAGGAACCAAAATGTAGTTGCATCC   1152
+
+ATCOPIA30_I     1285 atctcaagaatgagtat-----ttcagtgtgaaagatccgcagatcattt   1329
+                     |.|.|||||  ||||||     ||||..||.||  .||||  |.|| |||
+ATCOPIA30       1153 ACCACAAGA--GAGTATGTCTCTTCATAGTCAA--TTCCG--GGTC-TTT   1195
+
+ATCOPIA30_I     1330 g---------------ga-----------acaatctaaagcacagttatg   1353
+                     |               ||           |||||.|    |||.|||.|.
+ATCOPIA30       1196 GTGGGAATCCTTGTGCGACTTTATGCCTTACAATTT----CACCGTTTTC   1241
+
+ATCOPIA30_I     1354 at------------catgagaaga-ctatgatattatctaaggtccgata   1390
+                     ||            ||    |||| |.||    ||||     ||||.| .
+ATCOPIA30       1242 ATTCTTCTTTCGTACA----AAGACCCAT----TTAT-----GTCCCA-C   1277
+
+ATCOPIA30_I     1391 tgattggactcatctg-------agact-------ccaagactt-taaat   1425
+                     ||.||..||.|.|..|       |||||       |.||.|||| |...|
+ATCOPIA30       1278 TGGTTTTACACTTTCGGGTGTACAGACTACTGGTCCAAACACTTCTCTCT   1327
+
+ATCOPIA30_I     1426 atgtaagttagtacaactcagc--------ctt------attc---aaaa   1458
+                     .||.|||..|.|..||.||.||        |||      ||||   .|||
+ATCOPIA30       1328 TTGCAAGAAATTTTAATTCTGCATCTATTGCTTCATTCCATTCTGGCAAA   1377
+
+ATCOPIA30_I     1459 taactt-------------------taaa--ttgg---------------   1472
+                     |.||||                   ||.|  ||||               
+ATCOPIA30       1378 TCACTTCTTTGTGTACACTCTTCAATAGATGTTGGTTCATGATCCTCATC   1427
+
+ATCOPIA30_I     1473 ---------aa---ttatgtggagag---aaaatgatggatgcagataag   1507
+                              ||   .|||||.|..||   ||.||.||.||.|..|||   
+ATCOPIA30       1428 CATAACATCAACTGCTATGTTGCAAGCAAAATATCATCGACGTCGAT---   1474
+
+ATCOPIA30_I     1508 ttggagtagacattc---tctacttt-ttaatgcta--------ataac-   1544
+                     |||       |.|||   ||||.||| ||    |||        ||||| 
+ATCOPIA30       1475 TTG-------CTTTCAGTTCTATTTTCTT----CTAGACATGACATAACC   1513
+
+ATCOPIA30_I     1545 ---------------attgtcttgcagacacagt-acggtgaaaagggat   1578
+                                    |||||    |||     || ||  ||||     .|
+ATCOPIA30       1514 AGTTGAGATCTCTTAATTGT----CAG-----GTAAC--TGAA-----TT   1547
+
+ATCOPIA30_I     1579 tc-----gtg---------aagt-----------attcc-ca-----act   1597
+                     ||     |||         ||||           ||||| ||     |.|
+ATCOPIA30       1548 TCTTTCTGTGTCATGTCTAAAGTCTCTTCGGGAGATTCCTCATTTGTAAT   1597
+
+ATCOPIA30_I     1598 tatttcttgtctacttgtagctgagaaaaacaatg--agttac-------   1638
+                     ||||  ||.|||| ||.||.||          |||  |.||.|       
+ATCOPIA30       1598 TATT--TTTTCTA-TTTTACCT----------ATGCCAATTTCTGTCCCT   1634
+
+ATCOPIA30_I     1639 -----ttttgaaaaaccatggactat---------gcccatcaggttt--   1672
+                          ||||.||       |||.|.|         |||.|| ||||||  
+ATCOPIA30       1635 TTTCTTTTTTAA-------GGATTTTTATTTTTGAGCCAAT-AGGTTTAC   1676
+
+ATCOPIA30_I     1673 --tgctttgttctctgaaacgaatgtgacatgctatggtc------aaaa   1714
+                       .|||||        |||||         ||.|.|.|||      |.|.
+ATCOPIA30       1677 CACGCTTT--------AAACG---------TGTTTTTGTCCTTAGGAGAT   1709
+
+ATCOPIA30_I     1715 a---------agtgg-----ttacaaccg------------tggtc----   1734
+                     |         |.|||     ||.||||||            ||.||    
+ATCOPIA30       1710 ATTTATTCTTATTGGATCATTTGCAACCGGTATATGTGATTTGATCACAC   1759
+
+ATCOPIA30_I     1735 ----gtggccgtgtatacactagagga---------ctaggcagtg----   1767
+                         |.|.|.||..||.|| |||.|.|         |||.||..||    
+ATCOPIA30       1760 TTTTGGGTCAGTAAATGCA-TAGGGCAACTGATTTGCTAAGCTCTGTAAA   1808
+
+ATCOPIA30_I     1768 -gagttcattttaag------aactcaaactct----------cat-aag   1799
+                      ||.||.|.|||..|      ||.|||.|||||          .|| |||
+ATCOPIA30       1809 TGAATTAACTTTTGGACTTCTAATTCACACTCTTTAGTCCGAGGATCAAG   1858
+
+ATCOPIA30_I     1800 aagtgggaaaacaatgggacctca----aagaaggttgggagtatatgt-   1844
+                     |     .||.|||.||..|..|||    ||          |||||||.| 
+ATCOPIA30       1859 A-----TAAGACATTGATAATTCATTCCAA----------AGTATATCTT   1893
+
+ATCOPIA30_I     1845 --------tggttatgatt-tcc-----------------------cat-   1861
+                             ||.||||  || |||                       ||| 
+ATCOPIA30       1894 TTTCTTACTGTTTAT--TTATCCCTCTAATGTTGGAAAAACAGACTCATT   1941
+
+ATCOPIA30_I     1862 -caataaaagtat----ctcgagc---------catccacatg-ggattt   1896
+                      ||||.|.|||||    .||||||         .|||| |||| ||||  
+ATCOPIA30       1942 ACAATGACAGTATGCGAATCGAGCTTTTGAATAAATCC-CATGTGGAT--   1988
+
+ATCOPIA30_I     1897 attcaaaagctcgattcgcatactgtcattgtaatgagtctgtttttcca   1946
+                            .||||||    .|||||.|.||||                   
+ATCOPIA30       1989 -------GGCTCGA----GATACTTTTATTG-------------------   2008
+
+ATCOPIA30_I     1947 acattagagggataa--ataaacagtaagaaaaagatatact--------   1986
+                       ||    |||| ||  ||||.|         ||.|||||||        
+ATCOPIA30       2009 --AT----GGGA-AATCATAACC---------AACATATACTCCCAACCT   2042
+
+ATCOPIA30_I     1987 --ttggaatgaattatcaatgtctt-----atcttgatcctcggactaaa   2029
+                       ||    |||..|..||.|||.||     .|||| ||          .|
+ATCOPIA30       2043 TCTT----TGAGGTCCCATTGTTTTCCCACTTCTT-AT----------GA   2077
+
+ATCOPIA30_I     2030 gagtgtgaattagaagtccaaaagttaattcatttacagagcttagcaaa   2079
+                     ||||.|||.|      ||..|||.|.||.||     ||..||.|||    
+ATCOPIA30       2078 GAGTTTGAGT------TCTTAAAATGAACTC-----CACTGCCTAG----   2112
+
+ATCOPIA30_I     2080 tcagttgcccta-tgcatttactgacccaaaagtgtgatcaaatcacata   2128
+                          |.|.||| ||.||..||.|.|.|        ||.||         
+ATCOPIA30       2113 -----TCCTCTAGTGTATACACGGCCAC--------GACCA---------   2140
+
+ATCOPIA30_I     2129 taccggttgcaaatgatccaataagaataaatatctcctaaggacaaaaa   2178
+                        ||||||.||     |||.|         |.|.|      |||.|.|.
+ATCOPIA30       2141 ---CGGTTGTAA-----CCACT---------TTTTT------GACCATAG   2167
+
+ATCOPIA30_I     2179 ca---------cgttt--------aaagcgtggtaaacct-attggctca   2210
+                     ||         |||||        |||||    .|||||| ||.|||   
+ATCOPIA30       2168 CATGTCACATTCGTTTCAGAGAACAAAGC----AAAACCTGATGGGC---   2210
+
+ATCOPIA30_I     2211 aaaataaaaatcc-------ttaaaaaagaaaagggacagaaattggcat   2253
+                           |.|.|||       ||.|||            ||.||.|  |||
+ATCOPIA30       2211 ------ATAGTCCATGGTTTTTCAAA------------AGTAACT--CAT   2240
+
+ATCOPIA30_I     2254 ----------aggta-aaatag--aaaaaataattacaaatgaggaatct   2290
+                               ||.|| ||.|||  ||.||||||.|     || |||||  
+ATCOPIA30       2241 TGTTTTTCTCAGCTACAAGTAGACAAGAAATAAGT-----TG-GGAAT--   2282
+
+ATCOPIA30_I     2291 cccgaagagactttagacatgacacagaaagaa-----attca--gttac   2333
+                              ||||         |||     |||     .||||  | |||
+ATCOPIA30       2283 ---------ACTT---------CAC-----GAATCCCTTTTCACCG-TAC   2308
+
+ATCOPIA30_I     2334 -----ct----gacaattaagagatctcaactggttatgtcatgtctag-   2373
+                          ||    ||||||                |||||        ||| 
+ATCOPIA30       2309 TGTGTCTGCAAGACAAT----------------GTTAT--------TAGC   2334
+
+ATCOPIA30_I     2374 ---aagaaaatagaactgaaag-------caa---atcgacgtcgatgat   2410
+                        || |||.||||   |||.|       |||   |||..|.||.||.| 
+ATCOPIA30       2335 ATTAA-AAAGTAGA---GAATGTCTACTCCAACTTATCTGCATCCATCA-   2379
+
+ATCOPIA30_I     2411 attttgcttgcaacatagcagttgatgttatggatgaggatcatgaacca   2460
+                       |||.||..|.|||||                         ||  .|||
+ATCOPIA30       2380 --TTTTCTCTCCACATA-------------------------AT--TCCA   2400
+
+ATCOPIA30_I     2461 acatctattgaagagtgtacacaaagaagtgatttgccagaatggaatga   2510
+                     |              |.||       ||||.||||            || 
+ATCOPIA30       2401 A--------------TTTA-------AAGTTATTT------------TG-   2416
+
+ATCOPIA30_I     2511 agcaatagatgcagaattaaaatttcttgcaaagagagaagtgtttggac   2560
+                        |||| |.||.||.||..|.|..|||.||.|...| ||||.||     
+ATCOPIA30       2417 ---AATA-AGGCTGAGTTGTACTAACTTACATATTTA-AAGTCTT-----   2456
+
+ATCOPIA30_I     2561 cagtagtctgtacacccgaaagtgtaaaacca-gtgggac-----ataa-   2603
+                       |.|||||       |..|.|.||..||.|| .|.||||     |||| 
+ATCOPIA30       2457 --GGAGTCT-------CAGATGAGTCCAATCATATCGGACCTTAGATAAT   2497
+
+ATCOPIA30_I     2604 ---atgggtctt----tgtacgaaagaagaatgaaaacggtg----aaat   2642
+                        || .|||||    ||            ||.|.|||.|||    |.||
+ATCOPIA30       2498 ATCAT-AGTCTTCTCATG------------ATCATAACTGTGCTTTAGAT   2534
+
+ATCOPIA30_I     2643 tgtaaggcataaagtcgcacaaggattcccacaaa-gacc--cgga--at   2687
+                     ||                       |||   |||| ||.|  ||||  .|
+ATCOPIA30       2535 TG-----------------------TTC---CAAATGATCTGCGGATCTT   2558
+
+ATCOPIA30_I     2688 tgactatgaagagacatactc--tcttgtggtggatgcaactacattttg   2735
+                     |.||..||||     ||||||  |||||                     .
+ATCOPIA30       2559 TCACACTGAA-----ATACTCATTCTTG---------------------A   2582
+
+ATCOPIA30_I     2736 gttccttat-----tagtctagcagtaaaagaaggact--tgatttat--   2776
+                     |.||||.||     |.||.|.||||.||||..|...||  |.||||.|  
+ATCOPIA30       2583 GATCCTCATGGAGATGGTATCGCAGAAAAATCATAGCTTCTAATTTTTCT   2632
+
+ATCOPIA30_I     2777 ---------gtttgatggatgtagtcacaacctattt-atacggtccact   2816
+                              |||||||        ||.||   |.||| ||  |||     
+ATCOPIA30       2633 TTACTTTGAGTTTGAT--------TCCCA---TCTTTGAT--GGT-----   2664
+
+ATCOPIA30_I     2817 gaaaaatgacat-ttatatgaaaatcccagaat---gatttaaaatgtca   2862
+                      |..||.||.|| ||.|            ||||   |||   ||||.|||
+ATCOPIA30       2665 -ATCAAGGAGATCTTTT------------GAATCTAGAT---AAATTTCA   2698
+
+ATCOPIA30_I     2863 g-aagcagta-caat--caaat-----tctc----gagaacaatactgca   2899
+                     | |..||||| ||||  |||||     ||||    ||.|.|||.|.|.| 
+ATCOPIA30       2699 GCATTCAGTACCAATGCCAAATAGTTATCTCCTGTGATATCAAGAGTTC-   2747
+
+ATCOPIA30_I     2900 taaaattaaatcgatcc---------------cttta-taa---attaaa   2930
+                      .||||||||  |||.|               .|||| |||   ||||||
+ATCOPIA30       2748 -CAAATTAAA--GATTCATAAGTTTTGACATGGTTTACTAAAATATTAAA   2794
+
+ATCOPIA30_I     2931 acaatcatggtgtatgtggtataatcgccttagtgacttgct---aaaag   2977
+                     |.|||           ||.|..|||       .|||||.|.|   |||| 
+ATCOPIA30       2795 AAAAT-----------TGATTAAAT-------ATGACTAGATTTCAAAA-   2825
+
+ATCOPIA30_I     2978 aatatacaaaaaaagactatgttagtccatgcatctttataa-acagatt   3026
+                          |.|||||||.| |.|||||        ||.||.|.|| |||   |
+ATCOPIA30       2826 -----ATAAAAAAATA-TGTGTTA--------ATTTTCAAAATACA---T   2858
+
+ATCOPIA30_I     3027 tgggaaatgatttgttataattgtagtttatgttgat----gattta---   3069
+                     |...||||.|..|.|||.||||.| .|||.|.||..|    ||||||   
+ATCOPIA30       2859 TAACAAATAAAATATTACAATTAT-CTTTTTTTTCGTCTTAGATTTATTT   2907
+
+ATCOPIA30_I     3070 -------aatattatgggaac-----------------ttctgcagagat   3095
+                            || ||||||.||||                 |.||.||||.|.
+ATCOPIA30       2908 TTATTGCAA-ATTATGAGAACTGTTACAAAGACGATTTTACTACAGACAA   2956
+
+ATCOPIA30_I     3096 ctccttc---acagtagaatattta---------aagaaag----aattt   3129
+                     .||||||   ||..||..|||.|||         ||.||||    |.|||
+ATCOPIA30       2957 TTCCTTCTGAACGATATTATAATTATCTTATAATAATAAAGTATTACTTT   3006
+
+ATCOPIA30_I     3130 gagaagagagattt--tggaaaaacaaaa---------------------   3156
+                     |..|.||.|| |||  |.|||||..||||                     
+ATCOPIA30       3007 GCAAGGAAAG-TTTCATAGAAAATTAAAAAACGTAGAATTGGGTTGACTA   3055
+
+ATCOPIA30_I     3157 -----ttttgtt------------tgggacta-caaat----------tg   3178
+                          |||||||            |.||||.| |||||          ||
+ATCOPIA30       3056 ACGCTTTTTGTTAAAAAAAAGTAATAGGACAATCAAATATTAAATATATG   3105
+
+ATCOPIA30_I     3179 aacacc-------------taaata-atgtaattctggtgcatca-----   3209
+                     ||.|.|             |||||| |||.||         ||||     
+ATCOPIA30       3106 AAAATCAACAATCAAGTATTAAATATATGGAA---------ATCAGAATA   3146
+
+ATCOPIA30_I     3210 --agaga--catataca---gaaaatgt---tctcaaaag--attctaca   3247
+                       |||.|  .||.||||   ||||| ||   |.|||||||  ||..||.|
+ATCOPIA30       3147 TTAGATATCTATCTACATATGAAAA-GTCAATATCAAAAGTAATAATATA   3195
+
+ATCOPIA30_I     3248 tggatg--gagcagtccccttgagtagcccaatggttgt-aaggtcactt   3294
+                     ||.|.|  ||.|                   |||||||| ||        
+ATCOPIA30       3196 TGTACGACGATC-------------------ATGGTTGTGAA--------   3218
+
+ATCOPIA30_I     3295 gatgtggat----aaagatccattatgtcctcgggaaaacaa--------   3332
+                      ||.||.||    |||.||..|.|||...||     |||.||        
+ATCOPIA30       3219 -ATATGAATTATCAAAAATAAAGTATTAACT-----AAATAATATTGAAT   3262
+
+ATCOPIA30_I     3333 ------tgaaggagttcttag-tcctgaaatatcatacttaa--------   3367
+                           |.||.||.|| |||| |..|.||||||.| |||.||        
+ATCOPIA30       3263 CAATCGTAAAAGAATT-TTAGATAATAAAATATTA-ACTGAACTATATTG   3310
+
+ATCOPIA30_I     3368 ---gtgcaagttcatgtccaactcgaagacattggaa-------tggaat   3407
+                        .|||||    .|.|||||..||||||...|.|||       .|||||
+ATCOPIA30       3311 AATATGCAA----CTATCCAAAACGAAGAAGATAGAAAAATACTAGGAAT   3356
+
+ATCOPIA30_I     3408 ta-----aacatatacttcgttatctccaatgtaagaaagacatgagtct   3452
+                     ||     ||.|..||.|||.||..|||..||.|||||             
+ATCOPIA30       3357 TAATGCTAAGAACTAGTTCTTTGGCTCTTATATAAGA-------------   3393
+
+ATCOPIA30_I     3453 gctttttcct--------aaccaatttagaa--gatttaattggttttg-   3491
+                     |||..|||.|        ||||||||    |  .|||||||   ||||| 
+ATCOPIA30       3394 GCTGGTTCTTAGAATTTAAACCAATT----ATTCATTTAAT---TTTTGT   3436
+
+ATCOPIA30_I     3492 ca-----gatgc--aggat---------acttatc-----tgat-ctc--   3517
+                     ||     .||||  ||.||         ||.||.|     |||| |||  
+ATCOPIA30       3437 CAAAGTTAATGCTAAGAATTTCTTAAAAACCTACCAATAATGATGCTCTA   3486
+
+ATCOPIA30_I     3518 -----------cataa----------gg--ttttgcagatgcaggatatt   3544
+                                |||.|          ||  |||...||.||||  |||||
+ATCOPIA30       3487 ATGCATGCTTGCATCATTCACCACCGGGCATTTAATAGTTGCA--ATATT   3534
+
+ATCOPIA30_I     3545 -----------------------------tatctgatctccataatggta   3565
+                                                  |||.|.||.| .||.||..||
+ATCOPIA30       3535 AACTAGATAAAATATCAAATTAAATAATATATTTTATAT-TATTATAATA   3583
+
+ATCOPIA30_I     3566 gat----cgta-----------aacagaatatg-----------------   3583
+                     |||    |.||           |||| ||.|||                 
+ATCOPIA30       3584 GATTTCACATAAATTAACAATCAACA-AACATGATTCTTTTTTTTTGACG   3632
+
+ATCOPIA30_I     3584 ----tcttcaca-------tgtat--tgctat--ttattggcgttctatg   3618
+                         ||||.|.|       ||.||  ||||||  |.|||.|      ||.
+ATCOPIA30       3633 ATTTTCTTTATAGAATCATTGAATCATGCTATAATAATTAG------ATA   3676
+
+ATCOPIA30_I     3619 aagaaaactgtt--gcagccacatcttct------aatcattcaga----   3656
+                     ||.|||  ||.|  |||.....|||||||      |||||||.|.|    
+ATCOPIA30       3677 AATAAA--TGGTAAGCATGATTATCTTCTTTACTGAATCATTGAAAACAT   3724
+
+ATCOPIA30_I     3657 gattttagcaat-----tcatga--aactagccgc-aagatttttagcgt   3698
+                     |.|||||.||||     ||||.|  |.|.|.|.|| .|.|||.||    |
+ATCOPIA30       3725 GCTTTTACCAATCTATATCATAATTATCGATCGGCTCATATTGTT----T   3770
+
+ATCOPIA30_I     3699 gt-------atgg-----------ctaagatccat-agttaccatataca   3729
+                     ||       ||.|           |||.||.|||| |||  |.|||   |
+ATCOPIA30       3771 GTTTCAATAATAGAAAAATAAATACTATGAACCATGAGT--CGATA---A   3815
+
+ATCOPIA30_I     3730 a-aaagattgtggtatctatgcaaggaaaa-----aagctccaacaatta   3773
+                     | |||.||.||    |||||  ||..||||     ||..||.|.|..|||
+ATCOPIA30       3816 ATAAACATAGT----TCTAT--AAAAAAAAATGAGAATATCTACCTTTTA   3859
+
+ATCOPIA30_I     3774 -------------tgtacaaagacaatgcagcatgcatcgcacaa-----   3805
+                                  ||||.|.||| .||..||     ||||.|.||     
+ATCOPIA30       3860 GCTGATAACTTGTTGTAAATAGA-GATAGAG-----ATCGAAGAAACGTG   3903
+
+ATCOPIA30_I     3806 ---------ctcaaaaaca--------tatacatcaa-----aggcgata   3833
+                              ||.|..||.|        |.||.|||||     |||.|| |
+ATCOPIA30       3904 TGTATTATTCTAATGAATAGAGGGTATTTTATATCAATGTGGAGGGGA-A   3952
+
+ATCOPIA30_I     3834 g--------------aacaaaggacatcttac--------caa--aatt-   3858
+                     |              .||||||.|.|    ||        |||  |||| 
+ATCOPIA30       3953 GGGTTTTACTTGGGTGACAAAGTAAA----ACCCTATGTACAAGTAATTT   3998
+
+ATCOPIA30_I     3859 ------cttct   3863
+                           |||||
+ATCOPIA30       3999 TAGAGACTTCT   4009
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      63/130 (48.5%)
+# Similarity:    63/130 (48.5%)
+# Gaps:          54/130 (41.5%)
+# Score: 150.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      739 atatttaatacttgattgt---tgattttcatatatttaatat-ttg-at    783
+                     ||.||||||  |.||||.|   ||||..|.|||| .|.||||| ||| ||
+ATCOPIA30          1 ATTTTTAAT--TGGATTCTTTGTGATGATGATAT-CTCAATATCTTGTAT     47
+
+ATCOPIA30_I      784 tgtcctattacttttttttaacaaaaagcgttagtcaacccaattctacg    833
+                     |||  ..||||||||                            ||||.|.
+ATCOPIA30         48 TGT--GTTTACTTTT----------------------------TTCTTCT     67
+
+ATCOPIA30_I      834 ttttttaattttctatgaaactttccttgc    863
+                     ||.|||              ||||  ||||
+ATCOPIA30         68 TTCTTT--------------CTTT--TTGC     81
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 96
+# Identity:      63/96 (65.6%)
+# Similarity:    63/96 (65.6%)
+# Gaps:          24/96 (25.0%)
+# Score: 200.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      401 taggtttttaagaaattcttagcat-taactttgacaaaaattaaatgaa    449
+                     |||||       .||||    |.|| |         ||||||| |||||.
+ATCOPIA30          1 TAGGT-------CAATT----GGATGT---------AAAAATT-AATGAT     29
+
+ATCOPIA30_I      450 t-aattggtttaaattctaagaaccagctcttatataagagccaaa    494
+                     | |||||.||||..|.||||||| .|||||||||||||||||.|||
+ATCOPIA30         30 TAAATTGATTTATTTGCTAAGAA-TAGCTCTTATATAAGAGCAAAA     74
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      95/131 (72.5%)
+# Similarity:    95/131 (72.5%)
+# Gaps:          10/131 ( 7.6%)
+# Score: 290.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      372 gcaagcat--gcattagagcatcattattggtaggtttttaaga-aattc    418
+                     ||.|.|||  |.||||||.|||||||||||||||.|..|||..| |.|||
+ATCOPIA30          1 GCTAACATTAGTATTAGACCATCATTATTGGTAGTTGCTTAGTATAGTTC     50
+
+ATCOPIA30_I      419 ttagcattaactttga-caaaaattaaatgaata-attggtttaaattct    466
+                     |||| ||||| |..|| .|.||||..||||..|| ||||.||||..|..|
+ATCOPIA30         51 TTAG-ATTAA-TCAGATTAGAAATATAATGTTTATATTGATTTATTTGTT     98
+
+ATCOPIA30_I      467 aagaaccagctcttatataagagccaaagaa    497
+                     ||||| ..|||||||||||||||  |||.||
+ATCOPIA30         99 AAGAA-TGGCTCTTATATAAGAG--AAAAAA    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 626
+# Identity:     363/626 (58.0%)
+# Similarity:   363/626 (58.0%)
+# Gaps:         168/626 (26.8%)
+# Score: 1066.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      963 aaataaatctaagacgaaaaaaaagataattgtaata------ttttatt   1006
+                     |||.||||..|.|.|.||||.||  .|.|||..||||      |||.|||
+ATCOPIA30          1 AAAGAAATTCAGGCCCAAAATAA--TTTATTCGAATAAGTAGTTTTGATT     48
+
+ATCOPIA30_I     1007 tgttaatgtattttgaaaatt------aacacatatttttttatttttga   1050
+                     .|.||      ||||||.|||      |    ||.|||.|.||||||.||
+ATCOPIA30         49 GGGTA------TTTGAATATTTTTTTGA----ATGTTTGTATATTTTGGA     88
+
+ATCOPIA30_I     1051 ----aatctagtcatatt-taatcaatttttttaatattttag-taaacc   1094
+                         .||.||.||.|||| |||  .|||||||||.|.||||.| |||   
+ATCOPIA30         89 GAAGTATATATTCCTATTATAA--GATTTTTTTATTTTTTTTGCTAA---    133
+
+ATCOPIA30_I     1095 atgtcaaaacttatga-atctttaatttg-gaactcttg-----atatca   1137
+                         .|||..||||.| ||.||  |||.| |||    ||     |||||.
+ATCOPIA30        134 ----GAAATATTATAAGATGTT--ATTCGAGAA----TGAGTATATATCC    173
+
+ATCOPIA30_I     1138 cag------gagataactatttggcattggtactgaatgctgaaa-----   1176
+                     |.|      ||.||||      |.||              |.|||     
+ATCOPIA30        174 CTGTTCATTGAAATAA------GACA--------------TCAAATCTCT    203
+
+ATCOPIA30_I     1177 tttatctagattcaaaagatctccttgataccatcaaagatgggaatcaa   1226
+                     ||||||||.|||||||.|||.|.|||||||    ||||||.||.||||||
+ATCOPIA30        204 TTTATCTATATTCAAAGGATTTTCTTGATA----CAAAGAAGGAAATCAA    249
+
+ATCOPIA30_I     1227 actcaaagtaaagaaaaattagaagctatgatttttctgcgataccatct   1276
+                     |.|| .||.|||||||||||| |||.||||||||||||            
+ATCOPIA30        250 ATTC-TAGCAAAGAAAAATTA-AAGGTATGATTTTTCT------------    285
+
+ATCOPIA30_I     1277 ccatgaggatctcaagaatgagtatttcagtgtgaaagatccgcagatca   1326
+                                |.||.||                    |||..||.||..
+ATCOPIA30        286 -----------TTAACAA--------------------ATCTACAAATTC    304
+
+ATCOPIA30_I     1327 tttggaacaatctaaagcacagttatgatcatgagaagactatgatatta   1376
+                     |||||....||.|.|||.|.||.|||||||||.||||.||..||||.||.
+ATCOPIA30        305 TTTGGTTTGATATGAAGGAAAGATATGATCATCAGAAAACAGTGATTTTG    354
+
+ATCOPIA30_I     1377 tctaaggtccg----atatgattggactcatctgagactccaagacttta   1422
+                     |.|||.|..||    |||||||||||.||||.|||||.|.||||      
+ATCOPIA30        355 TTTAAAGCTCGTTATATATGATTGGATTCATATGAGAATTCAAG------    398
+
+ATCOPIA30_I     1423 aatatgtaagttagtacaactcagccttattcaaaataactttaaattgg   1472
+                       ||||||||..||||.|||||||.|||.||.|||.||..||.|.||||.
+ATCOPIA30        399 --TATGTAAGCGAGTATAACTCAGTCTTGTTTAAATTATTTTCATATTGA    446
+
+ATCOPIA30_I     1473 aattatgtggagagaaaatgatggatgcagataagttggagtagacattc   1522
+                     |||||||||||||||||||.||  |||||.||||||     ||||.|.||
+ATCOPIA30        447 AATTATGTGGAGAGAAAATCAT--ATGCAAATAAGT-----TAGAAAATC    489
+
+ATCOPIA30_I     1523 -----tctactttttaatgctaataa   1543
+                          ||.||            ||||
+ATCOPIA30        490 ATGGATCCAC------------ATAA    503
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1004
+# Identity:     423/1004 (42.1%)
+# Similarity:   423/1004 (42.1%)
+# Gaps:         493/1004 (49.1%)
+# Score: 851.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      572 gttaat---attttattatctaaaattcttttacgattgattcaatatta    618
+                     |||.||   |||||.|||                     |||  |||.||
+ATCOPIA30          3 GTTGATGTCATTTTCTTA---------------------ATT--ATAATA     29
+
+ATCOPIA30_I      619 tttagttaatactttatttttgataatt---catatttcacaaccatgat    665
+                     ||   ||..|.|.|||.|||||..||||   |    ||||          
+ATCOPIA30         30 TT---TTTGTGCGTTAGTTTTGCCAATTGCCC----TTCA----------     62
+
+ATCOPIA30_I      666 cgtcgtacatatattattacttttgatattgacttttcatatgtagatag    715
+                           |||           ||||||||||                    
+ATCOPIA30         63 ------ACA-----------TTTTGATATT--------------------     75
+
+ATCOPIA30_I      716 atatctaatattctgatttc-catatatttaatacttgattgttgatttt    764
+                          |||||         | || |.||||||         ||||     
+ATCOPIA30         76 -----TAATA---------CGCA-AAATTTAA---------GTTG-----     96
+
+ATCOPIA30_I      765 catatatttaatatttgattgtcctattacttttttttaacaaaaagcgt    814
+                          .|||||||||        .|||||  ||||.||.||.||.|    
+ATCOPIA30         97 -----TTTTAATATT--------ATATTA--TTTTATTCACTAAGA----    127
+
+ATCOPIA30_I      815 tagtcaacccaattctacgtt-ttttaattttctatgaaactttccttgc    863
+                              ||||     ||| .||||||.||..||.||.|||       
+ATCOPIA30        128 ---------CAAT-----GTTAATTTAATATTGCATTAATCTT-------    156
+
+ATCOPIA30_I      864 aaagtaatactttattattataagataattataatatcgttcagaaggaa    913
+                      |||||||||  |||.|.|| ||.|||||..||||||     |.|||   
+ATCOPIA30        157 -AAGTAATAC--TATAAATA-AAAATAATATTAATAT-----ACAAG---    194
+
+ATCOPIA30_I      914 ttgtctgtagtaaaatcgtctttgtaacagttctcataat-----ttgca    958
+                              .||||.||.|              .||||||     |||  
+ATCOPIA30        195 ---------TTAAATTCAT--------------GCATAATGGAGCTTG--    219
+
+ATCOPIA30_I      959 ataaaaataaatctaagacgaaaaaaaagataattgtaatattttatttg   1008
+                          ||||.||               ||||||       ||||| ||||
+ATCOPIA30        220 -----AATATAT---------------AGATAA-------ATTTT-TTTG    241
+
+ATCOPIA30_I     1009 ttaatgtattttgaaaattaacacatatttttttatttttgaaatctagt   1058
+                     .|.||.|||    ||||..||.|           |||    |||.|||.|
+ATCOPIA30        242 ATGATATAT----AAAAGAAAGA-----------ATT----AAAACTAAT    272
+
+ATCOPIA30_I     1059 catatttaatcaatttttttaatattttagtaaaccatgtcaaaacttat   1108
+                     .||||.|||.|.||.|..|||||||||   ||||     |.||||     
+ATCOPIA30        273 GATATCTAAACTATCTAATTAATATTT---TAAA-----TTAAAA-----    309
+
+ATCOPIA30_I     1109 gaatctttaatttggaactcttgatatcacaggagataactatttggcat   1158
+                      ||     |||||.||    ||  |||||||      |||.||.|     
+ATCOPIA30        310 -AA-----AATTTTGA----TT--TATCACA------AACAATGT-----    336
+
+ATCOPIA30_I     1159 tggtactgaatgctgaaatttatctagattcaaaagatctccttgatacc   1208
+                                             |||                     ||
+ATCOPIA30        337 ------------------------TAG---------------------CC    341
+
+ATCOPIA30_I     1209 atcaaagatgggaatcaaactcaaagtaaagaaaaattagaagctatgat   1258
+                     |..||                          ||||||..|    ||||| 
+ATCOPIA30        342 ACTAA--------------------------AAAAATGTG----TATGA-    360
+
+ATCOPIA30_I     1259 ttttctgcgataccatctccatgaggatctcaagaatgagtatttc-agt   1307
+                                           |||       |||  |.||.|||| |.|
+ATCOPIA30        361 ----------------------GAG-------AGA--GTGTGTTTCTAAT    379
+
+ATCOPIA30_I     1308 gtgaaagatccgcagatcatttggaacaatct-aaagcacagttatgatc   1356
+                     ||   |||.||..|||           |.||| |||       ||     
+ATCOPIA30        380 GT---AGAACCATAGA-----------ATTCTCAAA-------TA-----    403
+
+ATCOPIA30_I     1357 atgagaagacta-tgatattatctaaggtccgatatgattggactcatct   1405
+                          ||.|||| |       |||||        |.||||.|.||    |
+ATCOPIA30        404 -----AAAACTAGT-------TCTAA--------AAGATTTGTCT----T    429
+
+ATCOPIA30_I     1406 gagactccaaga-ctttaaatatgtaagttagtacaactcagccttattc   1454
+                     ||.|    ||.| .||||..|||.|||.|||  |..|||        ||.
+ATCOPIA30        430 GAAA----AATAGTTTTATTTATTTAATTTA--ATTACT--------TTT    465
+
+ATCOPIA30_I     1455 aa----aataactttaaattggaattatgtggagagaaaatgatggatgc   1500
+                     ||    ||||.| ||||.||||||||.||         ||||        
+ATCOPIA30        466 AATGGGAATATC-TTAACTTGGAATTTTG---------AATG--------    497
+
+ATCOPIA30_I     1501 agataagttggagtagacattctctactttttaatgctaataacatt--g   1548
+                      ||||.|||..|.|||     ||.||   |||.|||  |||    ||  .
+ATCOPIA30        498 -GATATGTTCTAATAG-----CTTTA---TTTCATG--AAT----TTTAC    532
+
+ATCOPIA30_I     1549 tctt   1552
+                     ||||
+ATCOPIA30        533 TCTT    536
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 393
+# Identity:     152/393 (38.7%)
+# Similarity:   152/393 (38.7%)
+# Gaps:         206/393 (52.4%)
+# Score: 289.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I     2265 aaaaaataattacaaatgaggaatctcccgaagagactttagacatgaca   2314
+                     ||||||.||||| ||.||||...|.|           |||..|||     
+ATCOPIA30          2 AAAAAAAAATTA-AATTGAGTTTTTT-----------TTTGCACA-----     34
+
+ATCOPIA30_I     2315 cagaaagaaattcagttacctgacaatt-----aagagatctcaactggt   2359
+                        ||||           |||.|.|.||     |||||.|.||.|.| ||
+ATCOPIA30         35 ---AAAG-----------CCTTATATTTTAAAAAAGAGTTATCGAGT-GT     69
+
+ATCOPIA30_I     2360 tatgtcatgtcta-----gaagaaaatagaactgaaagcaaatcgacgtc   2404
+                     .|||||||..|||     ||||        ||||                
+ATCOPIA30         70 CATGTCATCGCTACATGGGAAG--------ACTG----------------     95
+
+ATCOPIA30_I     2405 gatgatattttgcttgcaacatagcagttgatgttatggatgaggatcat   2454
+                                                    |.|||.||.|||       
+ATCOPIA30         96 -------------------------------TATTACGGGTGA-------    107
+
+ATCOPIA30_I     2455 gaaccaacatctattgaagagtgtacacaaaga-agtgatttgccagaa-   2502
+                               ||.||| |||.|||       || |.|||.|| .||.|| 
+ATCOPIA30        108 ----------CTTTTG-AGATTGT-------GAGATTGACTT-ACATAAT    138
+
+ATCOPIA30_I     2503 -tggaatgaagcaatagatgcagaattaaaatttcttgcaaagagagaag   2551
+                      ||||.|       |.||||       ||||   ||||||||        
+ATCOPIA30        139 TTGGACT-------TGGATG-------AAAA---CTTGCAAA--------    163
+
+ATCOPIA30_I     2552 tgtttggaccagtagtctgtacacccgaaagtgtaaaaccagtgggacat   2601
+                                              |||||.|             |||.|
+ATCOPIA30        164 -------------------------CGAAATT-------------GACTT    175
+
+ATCOPIA30_I     2602 aaatgggt--ctttgtacgaaagaagaatgaaaacggtgaaat   2642
+                     .|| ||||  .||||||            ||||||..|  |||
+ATCOPIA30        176 GAA-GGGTTGTTTTGTA------------GAAAACCCT--AAT    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 120
+# Identity:      86/120 (71.7%)
+# Similarity:    86/120 (71.7%)
+# Gaps:          16/120 (13.3%)
+# Score: 283.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      383 ttagagcatcattattggtaggtttttaag-aaattcttagcattaactt    431
+                     ||||||||.||||||||||||.|.||||.| ..||||||||.|  ||.||
+ATCOPIA30          1 TTAGAGCACCATTATTGGTAGTTGTTTAGGTTGATTCTTAGAA--AATTT     48
+
+ATCOPIA30_I      432 tga-caaaaattaaatg-----aataattggtttaaattctaagaaccag    475
+                     ||| .|.||||||||||     |||.|    |.|||.|..|||||  .||
+ATCOPIA30         49 TGATTATAAATTAAATGCTTTTAATCA----TATAATTGTTAAGA--GAG     92
+
+ATCOPIA30_I      476 -ctcttatataagagccaaa    494
+                      |||||||||||.||.||||
+ATCOPIA30         93 TCTCTTATATAACAGACAAA    112
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:      20/28 (71.4%)
+# Similarity:    20/28 (71.4%)
+# Gaps:           6/28 (21.4%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      938 taacagtt-----ctcataatttgcaat    960
+                     |||.||||     ||.||||||| ||||
+ATCOPIA30          2 TAAGAGTTTAGAACTAATAATTT-CAAT     28
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      19/34 (55.9%)
+# Similarity:    19/34 (55.9%)
+# Gaps:          13/34 (38.2%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      511 ttaattcctagtatttttctatcttcttcgtttt    544
+                     ||||||.|  |||||           |.||||||
+ATCOPIA30          1 TTAATTAC--GTATT-----------TACGTTTT     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      36/54 (66.7%)
+# Similarity:    36/54 (66.7%)
+# Gaps:          11/54 (20.4%)
+# Score: 89.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I     1106 tatgaatctttaatttggaactcttgatatcacaggagataactatttgg   1155
+                     |||| ||| |.||||||  |.||||.|| |.|||.| |||     .||||
+ATCOPIA30          1 TATG-ATC-TAAATTTG--ATTCTTTAT-TTACATG-GAT-----CTTGG     39
+
+ATCOPIA30_I     1156 catt   1159
+                     ||.|
+ATCOPIA30         40 CAAT     43
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 946
+# Identity:     482/946 (51.0%)
+# Similarity:   482/946 (51.0%)
+# Gaps:         366/946 (38.7%)
+# Score: 1208.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      416 ttcttagcattaactttgacaaaaattaaatgaataattggtttaaattc    465
+                     ||.|||.||||||||||.|.||||||||||||||||||||||||||||||
+ATCOPIA30          1 TTGTTAACATTAACTTTTAGAAAAATTAAATGAATAATTGGTTTAAATTC     50
+
+ATCOPIA30_I      466 taagaaccagctcttatataagagccaaagaactagttcttagcattaat    515
+                     ||||||||||||.||||||||.|||||||.||||||.|.|||||||||||
+ATCOPIA30         51 TAAGAACCAGCTTTTATATAATAGCCAAAAAACTAGATTTTAGCATTAAT    100
+
+ATCOPIA30_I      516 tcctagtatttttctatcttcttcgttttg--gatagt---tgcatattc    560
+                     ||.||..||||||||||.||||||.|||||  ||| ||   ||.| ||.|
+ATCOPIA30        101 TCTTAACATTTTTCTATTTTCTTCTTTTTGAAGAT-GTCCCTGGA-ATCC    148
+
+ATCOPIA30_I      561 aatatagttc-agttaatattttat---------tat-ctaaaattcttt    599
+                     |..|||.|.| |   ||.|.||.||         ||| |.||||    ||
+ATCOPIA30        149 ATGATAATCCGA---AAAAATTGATCTGAATCCGTATCCGAAAA----TT    191
+
+ATCOPIA30_I      600 tacgattgattcaatattatttagttaatact-ttatttttgataattca    648
+                     || ||||.||||  |||||..| .|||| ||| .||..||||  |||.|.
+ATCOPIA30        192 TA-GATTTATTC--TATTAGGT-CTTAA-ACTCATAAATTTG--AATCCG    234
+
+ATCOPIA30_I      649 tatttcacaaccatgatcgtcgtac----at----atattattacttttg    690
+                     .|  |||.|||| |||.|.| |.||    ||    ||.|| |||  ||.|
+ATCOPIA30        235 AA--TCAAAACC-TGAACCT-GAACCCAAATCCGAATGTT-TTA--TTCG    277
+
+ATCOPIA30_I      691 atattgac------ttttcatatgtagatagatatctaatattctgattt    734
+                     |.|   ||      |||||    |.|||.|..||||      |||  |||
+ATCOPIA30        278 AAA---ACTCAAAATTTTC----GCAGAAATTTATC------TCT--TTT    312
+
+ATCOPIA30_I      735 -------ccatatattt-------aatacttgattgtt-----gattttc    765
+                            ||..||||||       ||||  .|||.|||     .|||.||
+ATCOPIA30        313 AACAAACCCGAATATTTACCCAAAAATA--AGATGGTTATAGAAATTCTC    360
+
+ATCOPIA30_I      766 ata--tatttaatatttgattgtcctattacttttttttaacaaaaagcg    813
+                     |||  |||          |||||..|||                      
+ATCOPIA30        361 ATACGTAT----------ATTGTTTTAT----------------------    378
+
+ATCOPIA30_I      814 ttagtcaacccaattctacgttttttaattttctatgaaactttccttgc    863
+                     |||||||                   ||||.|.|||.|            
+ATCOPIA30        379 TTAGTCA-------------------AATTATGTATCA------------    397
+
+ATCOPIA30_I      864 aaagtaatactttattattataagataattataatatcgttcagaaggaa    913
+                                        |||| ||||.||.||||| ||| |||     
+ATCOPIA30        398 -------------------ATAA-ATAAATAAAATAT-GTT-AGA-----    420
+
+ATCOPIA30_I      914 ttgtctgtagtaaaatcgtctttgt----aacagttctcataatttgcaa    959
+                         |..|||  ||.|||.|||.||    ||| ||.|.|||.|       
+ATCOPIA30        421 ----CACTAG--AACTCGACTTCGTGATCAAC-GTACGCATCA-------    456
+
+ATCOPIA30_I      960 taaaaataaatctaagacgaaaaaaaagataattgtaatattttatttgt   1009
+                                                 |||||||.||||  |.|||||.
+ATCOPIA30        457 ----------------------------ATAATTGAAATA--TGATTTGG    476
+
+ATCOPIA30_I     1010 taatgtat-tttgaaaattaacacatattttttt---atttttgaaatc-   1054
+                     |...|||| |.||||           ||||||||   |     |||||| 
+ATCOPIA30        477 TCGAGTATATATGAA-----------ATTTTTTTGGCA-----GAAATCA    510
+
+ATCOPIA30_I     1055 -tag-------------------tcatattta-atca-atttttttaata   1082
+                      |||                   |.||.|||| |||| .|||.|||||..
+ATCOPIA30        511 ATAGTTTAACTAACCGTTTTCGTTTATGTTTACATCATGTTTGTTTAAAT    560
+
+ATCOPIA30_I     1083 tttta-gtaaaccatg------tcaaaacttatgaatctttaatttggaa   1125
+                     ||||| ||    ||||      |||||..|||        |||.|||.| 
+ATCOPIA30        561 TTTTATGT----CATGTCTGTTTCAAATTTTA--------TAAGTTGTA-    597
+
+ATCOPIA30_I     1126 ctcttgatatcacaggagataactatttggcattggtactgaatgctgaa   1175
+                                       ||||.||||              ||    ||.
+ATCOPIA30        598 ------------------ATAATTATT--------------AA----GAT    611
+
+ATCOPIA30_I     1176 atttatctagattcaaaagatctccttgataccatcaaagatgggaatca   1225
+                     |||||   |.||| ||||.||.|  ||             ||...||  |
+ATCOPIA30        612 ATTTA---AAATT-AAAATATTT--TT-------------ATTTTAA--A    640
+
+ATCOPIA30_I     1226 aactcaaagtaaaga----------------aaaattagaagctat   1255
+                     ||.||.||||.||||                ||||||..||.||.|
+ATCOPIA30        641 AAGTCCAAGTTAAGAACCTTTTATTACAGTCAAAATTTTAATCTTT    686
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 148
+# Identity:     104/148 (70.3%)
+# Similarity:   104/148 (70.3%)
+# Gaps:          21/148 (14.2%)
+# Score: 322.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      361 tggtgaatgatgcaagcatg-cattagagcatcattattggtaggttttt    409
+                     ||.||||..|||.|||   | ||||||||||||.|||..|||.|||||| 
+ATCOPIA30          1 TGATGAACAATGTAAG---GTCATTAGAGCATCCTTAACGGTGGGTTTT-     46
+
+ATCOPIA30_I      410 aagaaa---ttcttagcatt--aactttgacaaaaattaaatgaataatt    454
+                      ||..|   ||||||||.||  |   ||||..||||||||||.||||||.
+ATCOPIA30         47 -AGTGATGGTTCTTAGCTTTGGA---TTGATTAAAATTAAATCAATAATA     92
+
+ATCOPIA30_I      455 gg-tttaaattctaag-aaccagctcttatataagag--ccaaagaac    498
+                     || ||||   |.|.|| ||||.|||||||..||||||  ..|||||.|
+ATCOPIA30         93 GGCTTTA---TTTGAGAAACCCGCTCTTAACTAAGAGGTTTAAAGAGC    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      24/31 (77.4%)
+# Similarity:    24/31 (77.4%)
+# Gaps:           3/31 ( 9.7%)
+# Score: 83.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      501 gttcttagc-attaattcctagtatttttct    530
+                     |||.||||| ||||.||.||  |||||||.|
+ATCOPIA30          1 GTTTTTAGCAATTACTTACT--TATTTTTTT     29
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1631
+# Identity:     748/1631 (45.9%)
+# Similarity:   748/1631 (45.9%)
+# Gaps:         704/1631 (43.2%)
+# Score: 1541.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I       53 atttatcgactcatggttcatagtatttatttttctattattgaaacaaa    102
+                     |||||...|         |||| |||||||..||.||.||       |||
+ATCOPIA30          2 ATTTAAAAA---------CATA-TATTTATAATTTTAATA-------AAA     34
+
+ATCOPIA30_I      103 caatatgagccgatcgata-attat-gatatagattggtaaaagcatgtt    150
+                     .|||||||        ||| ||||| .||.||.|||     ||      |
+ATCOPIA30         35 AAATATGA--------ATACATTATAAATTTAAATT-----AA------T     65
+
+ATCOPIA30_I      151 ttcaatgattcagtaaagaagata------atcatgctt-------acca    187
+                     |.||||     |.||||.||..||      ||..||.||       |.||
+ATCOPIA30         66 TACAAT-----AATAAAAAAATTACATGTGATGTTGTTTGATTATGAGCA    110
+
+ATCOPIA30_I      188 tttat-----ttatct------aattattatagc----atgattcaatg-    221
+                     .||.|     ||.|||      ||||..|.|..|    |.||||.|||| 
+ATCOPIA30        111 CTTGTGTTGCTTTTCTCAAGAGAATTTGTGTTTCCTCGACGATTTAATGT    160
+
+ATCOPIA30_I      222 --attctataaagaaaatcgtcaaaaaaaaagaatcatgtt----tgttg    265
+                       .||||| .||..||.|.||.|||||||         |||    |.||.
+ATCOPIA30        161 CATTTCTA-CAATCAACTGGTTAAAAAAA---------GTTAGCATATTA    200
+
+ATCOPIA30_I      266 attgttaatttatgtgaaatctattataataa----------tataaaat    305
+                     |||.|||  ||||.|.|||| |.|||||||||          .|||||||
+ATCOPIA30        201 ATTTTTA--TTATTTAAAAT-TTTTATAATAACTTGTAACATAATAAAAT    247
+
+ATCOPIA30_I      306 --------------------atattatttaatttga-tattttatctagt    334
+                                         ||| |||||||||..| ||.||||..||  
+ATCOPIA30        248 AGCATAATCCTTACAAACCAATA-TATTTAATTAAACTAATTTACTTA--    294
+
+ATCOPIA30_I      335 taatattgcaactattaaatgcccggtggtgaatgatgcaagcatgcatt    384
+                     |||.||||                .|||||                  ||
+ATCOPIA30        295 TAAAATTG----------------TGTGGT------------------TT    310
+
+ATCOPIA30_I      385 agagcatcattattggtaggtttttaagaaattcttagcattaactttga    434
+                     |.|..||  |||          |.|||.|.||| .|||  ||||.|    
+ATCOPIA30        311 ATAAAAT--TTA----------TCTAAAATATT-GTAG--TTAATT----    341
+
+ATCOPIA30_I      435 caaaaatta------aatgaataattgg--tttaaattctaagaaccagc    476
+                        ||||||      |..||||||||.|  |||.|||| |||.|  ||  
+ATCOPIA30        342 ---AAATTAGTTCATATAGAATAATTTGTTTTTTAATT-TAACA--CA--    383
+
+ATCOPIA30_I      477 tctta-tataagagccaaa--gaactagttcttagcattaattcctagta    523
+                       ||| |||.|    ||||  .||.|||||.|||     ||||     ||
+ATCOPIA30        384 --TTAGTATTA----CAAATGAAAATAGTTTTTA-----AATT-----TA    417
+
+ATCOPIA30_I      524 tttttctatcttcttcgttttggatagttgcatattcaata--------t    565
+                            |.||     |||||  |||..|  |.||| ||||        |
+ATCOPIA30        418 -------AACT-----GTTTT--ATAACT--AAATT-AATAAAAAGGTGT    450
+
+ATCOPIA30_I      566 agttcagttaatat-tttattatctaaaat-tcttttacgattgattcaa    613
+                     .||.||.|||||.| ||..||||.|||.|| .|.||||..|||  ||.||
+ATCOPIA30        451 TGTGCATTTAATTTATTGGTTATTTAATATCCCATTTAATATT--TTAAA    498
+
+ATCOPIA30_I      614 tat-tatttagttaatactttatttttgataattcatatttcacaaccat    662
+                     .|| ||||||.|.|||      ||.||.|.|||  |||||| ||||.|.|
+ATCOPIA30        499 CATATATTTAATAAAT------TTATTAACAAT--ATATTT-ACAAGCTT    539
+
+ATCOPIA30_I      663 gatcgtcgtacatatattattactt-ttgatat-tgacttttcatatgt-    709
+                                |.|.|.||.||.|| ||.|||| .||   |||| .||| 
+ATCOPIA30        540 -----------AAAAAATAATAATTGTTAATATAGGA---TTCA-CTGTA    574
+
+ATCOPIA30_I      710 agatagatat-ctaatattctgatttccatatatttaatacttgattgtt    758
+                     |.||..|||| |||.|||             |||.|||||.|||.|  |.
+ATCOPIA30        575 AAATTTATATCCTACTAT-------------TATATAATAGTTGCT--TA    609
+
+ATCOPIA30_I      759 gatttt-catat-atttaatatttgattgtcctattacttttttttaaca    806
+                     .||||| ||.|| |.||||.||.|.|  ||.|.|  |.||.|||||||  
+ATCOPIA30        610 AATTTTACAAATAAATTAAAATGTAA--GTTCAA--ATTTGTTTTTAA--    653
+
+ATCOPIA30_I      807 aaaagcgttagtcaacccaattctacgttttttaattttctatgaaactt    856
+                                                     |||||||.|    |||||
+ATCOPIA30        654 --------------------------------TAATTTTAT----AACTT    667
+
+ATCOPIA30_I      857 tccttgcaaagtaatactttattattataagataattataatatcgttca    906
+                     ...||.||||             ||||||||       ||||| |.||||
+ATCOPIA30        668 ATTTTACAAA-------------ATTATAAG-------TAATA-CATTCA    696
+
+ATCOPIA30_I      907 gaaggaattgtctgtagtaaaatcgtctttgtaacagttctcataatttg    956
+                     .|..|||.|          ||||        .|.||.|||          
+ATCOPIA30        697 TATTGAAAT----------AAAT--------GAGCATTTC----------    718
+
+ATCOPIA30_I      957 caataaaaataaatctaagacgaaaaaaaagataattgta-atattttat   1005
+                         ||||||.|||             ||..||  ||||| |||.|||| 
+ATCOPIA30        719 ----AAAAATTAAT-------------AATCAT--TTGTATATAATTTA-    748
+
+ATCOPIA30_I     1006 ttgttaatgtattttgaaaattaacacatatttttttatttt-tgaaatc   1054
+                               |||||  |||||        ||.|.||||||| |.|||| 
+ATCOPIA30        749 ----------ATTTT--AAATT--------TTCTATTATTTTGTAAAAT-    777
+
+ATCOPIA30_I     1055 tagtcatattt------------aatcaattt---ttttaatattttagt   1089
+                        ||||||||            |||..||||   ||||||||.|.||  
+ATCOPIA30        778 ---TCATATTTCAAAAAATAAGAAATGTATTTTGATTTTAATAATCTA--    822
+
+ATCOPIA30_I     1090 aa--accatgtcaaaactt---atgaatc--tttaatttggaactcttga   1132
+                     ||  ||..|     |||||   ||| .||  |||.||||..|||||.|..
+ATCOPIA30        823 AATTACTTT-----AACTTCAAATG-TTCTTTTTGATTTTAAACTCATTT    866
+
+ATCOPIA30_I     1133 tat------cacaggagataac-----tatttggcattggtactgaatgc   1171
+                     |||      ||||.||.|| ||     ||||||    ||.|||       
+ATCOPIA30        867 TATAAAAACCACAAGAAAT-ACATTTATATTTG----TGTTAC-------    904
+
+ATCOPIA30_I     1172 tgaaatttatctagattcaaaagatctccttgataccatcaaagatggga   1221
+                              ||||.|||                                 
+ATCOPIA30        905 ---------TCTAAATT---------------------------------    912
+
+ATCOPIA30_I     1222 atcaaactcaaagtaaagaaaaattagaagctatgatttttctgcgatac   1271
+                            |||    ||||||.|||||.|.|.|||.|       ||.||| 
+ATCOPIA30        913 -------TCA----AAAGAATAATTATATGTTATTA-------GCCATA-    943
+
+ATCOPIA30_I     1272 catctccatgaggatctcaagaatgagtatttcagtgtgaaagatccgca   1321
+                                              |||.|||                  
+ATCOPIA30        944 -------------------------AGTTTTT------------------    950
+
+ATCOPIA30_I     1322 gatcatttggaacaatctaaagcacagttatgatcatgagaagactat--   1369
+                                   ||       |.|||||| |||        |||.|  
+ATCOPIA30        951 --------------AT-------AAAGTTAT-ATC--------ACTTTTC    970
+
+ATCOPIA30_I     1370 -gatattatctaaggtccgatatgattggactcatctgagactccaagac   1418
+                      |.||||.||.||  ||    |..||||.|  |||..|||          
+ATCOPIA30        971 AGCTATTTTCAAA--TC----AGTATTGTA--CATTAGAG----------   1002
+
+ATCOPIA30_I     1419 tttaaatatgtaagttagtacaa-ctcagccttattcaaaataactttaa   1467
+                       .||||.|||||        || ||||       .||||||   |||||
+ATCOPIA30       1003 --GAAATTTGTAA--------AATCTCA-------CCAAAAT---TTTAA   1032
+
+ATCOPIA30_I     1468 attggaattatgtggagagaaaatgatggatgcagataagttggagtaga   1517
+                     ||    |||.|       .||||                           
+ATCOPIA30       1033 AT----ATTTT-------TAAAA---------------------------   1044
+
+ATCOPIA30_I     1518 cattctctactttttaatgctaataacattg   1548
+                         |||||||||||.||    ||    |||
+ATCOPIA30       1045 ----CTCTACTTTTTTAT----AT----TTG   1063
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1167
+# Identity:     462/1167 (39.6%)
+# Similarity:   462/1167 (39.6%)
+# Gaps:         612/1167 (52.4%)
+# Score: 824.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      234 aaatcgtcaa--aaaaaaag-aatcatgtttgttgattgttaatttatgt    280
+                     ||||.|||||  ||||.||| ||  |||                    ||
+ATCOPIA30          1 AAATTGTCAAGCAAAATAAGCAA--ATG--------------------GT     28
+
+ATCOPIA30_I      281 gaaatctattataataatataaaatatattatttaatttgatattttatc    330
+                     .|||                          |||.|.||||    ||||||
+ATCOPIA30         29 CAAA--------------------------ATTGAGTTTG----TTTATC     48
+
+ATCOPIA30_I      331 tagttaatattgcaactattaaatgcccggtggtgaatgatgc-----aa    375
+                       ||.|             ||||            |||.||||     ||
+ATCOPIA30         49 --GTCA-------------TAAA------------AATTATGCGAGAAAA     71
+
+ATCOPIA30_I      376 gcatgcattagagcatcattattggtaggtttttaagaaattcttagcat    425
+                     |.|||   |.|.|.||||                   ||||      |||
+ATCOPIA30         72 GGATG---TTGTGGATCA-------------------AAAT------CAT     93
+
+ATCOPIA30_I      426 ta----actttgacaaaaatta-aatgaataattggtttaaattctaaga    470
+                     .|    |.|||       |||| ||  |||||           ||.||  
+ATCOPIA30         94 CAAACTATTTT-------ATTAGAA--AATAA-----------TCAAA--    121
+
+ATCOPIA30_I      471 accagctcttatataagagccaaagaactagttcttagcattaattccta    520
+                            ||| ||.||.|.||.||                  |||.|.|.
+ATCOPIA30        122 -------CTT-TAGAACACCCTAA------------------AATGCTTG    145
+
+ATCOPIA30_I      521 gtatttttctatcttcttcgttttggatagttgcatattcaatatagttc    570
+                     ||              |||.|.||.||.|   |.|||||  ||||     
+ATCOPIA30        146 GT--------------TTCATATTTGAAA---GAATATT--ATAT-----    171
+
+ATCOPIA30_I      571 agttaatat-tttat-tatctaaaattcttttacgattgattcaatatta    618
+                          |||| ||||| ||||.|||                          
+ATCOPIA30        172 -----ATATCTTTATATATCGAAA--------------------------    190
+
+ATCOPIA30_I      619 tttagttaatactttatttttgataattcatatttcacaaccatgatcgt    668
+                           ||| |||||       .|||||        |||| .|.|||| |
+ATCOPIA30        191 ------TAA-ACTTT-------TTAATT--------ACAA-AAGGATC-T    216
+
+ATCOPIA30_I      669 cgtacatatattattacttttgatattgac---ttttcatatgtag----    711
+                     |.||.||                  |||||   |||||     |||    
+ATCOPIA30        217 CTTAAAT------------------TTGACCATTTTTC-----TAGTTAA    243
+
+ATCOPIA30_I      712 -----atagatatctaatattctgatttccatatatt-----taatactt    751
+                          |.||| |.|  ||||    .|||.||| ||||     |||.||||
+ATCOPIA30        244 ACCCAAAAGA-ACC--ATAT----GTTTTCAT-TATTACCAATAAAACTT    285
+
+ATCOPIA30_I      752 gattgttgattttcatatatttaatatttg-attgtcctattactttttt    800
+                          ||.|.|||  |||.||     |||| .||.|||||       |||
+ATCOPIA30        286 -----TTAAATTT--TATGTT-----TTTGTTTTATCCTA-------TTT    316
+
+ATCOPIA30_I      801 ttaacaaaaagcgttagtcaacccaattctacgttttttaattttctatg    850
+                     ||||.||||                         |.|||||         
+ATCOPIA30        317 TTAAAAAAA-------------------------TATTTAA---------    332
+
+ATCOPIA30_I      851 aaactttccttgcaaagtaatactttattattataagata---attata-    896
+                                  |.||.||||         ||.||.|||   ||||.| 
+ATCOPIA30        333 -------------ACAGAAATA---------TAAAATATAGTGATTAGAG    360
+
+ATCOPIA30_I      897 ------atatcgttca-gaaggaattgtctgtagtaaaatcgt--ctttg    937
+                           |||||..||| ||   .|||.|   |.|.||.|||||  ||.||
+ATCOPIA30        361 CCAGGGATATCTCTCATGA---TATTAT---TCGAAATATCGTTGCTATG    404
+
+ATCOPIA30_I      938 taacagttctcat-aatt-tgcaataaaa---ataaa---tctaagacga    979
+                     |||        || |||| ||.||..|||   |||||   ||||    ||
+ATCOPIA30        405 TAA--------ATGAATTATGAAAACAAAATGATAAATTCTCTA----GA    442
+
+ATCOPIA30_I      980 aaaaaaagataattgtaatattttatttgttaatgtattttgaaaattaa   1029
+                     |.|..|.||| ||||.|                       ||.|.||.||
+ATCOPIA30        443 ACATGATGAT-ATTGCA-----------------------TGTACATCAA    468
+
+ATCOPIA30_I     1030 cacatatttttttatttttga---aatctagtcatatttaatcaattttt   1076
+                     ||.|||             ||   |.|||       |||||||      |
+ATCOPIA30        469 CAAATA-------------GAGAGACTCT-------TTTAATC------T    492
+
+ATCOPIA30_I     1077 ttaat--atttt--agtaaaccatgtcaaaacttatgaatctttaatttg   1122
+                     .||||  |||||  |..|||       |||||.||| ||.|         
+ATCOPIA30        493 CTAATTAATTTTGGATGAAA-------AAAACATAT-AACC---------    525
+
+ATCOPIA30_I     1123 gaactcttgatatcacaggagataactatttggcattggtactgaatgct   1172
+                      |||       ||.|.||.|.| |||||           |||        
+ATCOPIA30        526 -AAC-------ATTAAAGTATA-AACTA-----------TAC--------    547
+
+ATCOPIA30_I     1173 gaaatttatctagattcaaaagatctccttgataccatcaaagatgggaa   1222
+                       |||     ||||..|||                 ||.|||||      
+ATCOPIA30        548 --AAT-----TAGACCCAA-----------------ATTAAAGA------    567
+
+ATCOPIA30_I     1223 tcaaactcaaagtaaagaaaaattagaagctatgatttttctgcgatacc   1272
+                                 ||||.|||||                            
+ATCOPIA30        568 ------------TAAAAAAAAA----------------------------    577
+
+ATCOPIA30_I     1273 atctccatgaggatctcaagaatgagtatttcagtgtgaa---agatccg   1319
+                     |||         |.||||        |||.||..|.|.||   |.||...
+ATCOPIA30        578 ATC---------AACTCA--------TATGTCCATCTAAACCTATATTTA    610
+
+ATCOPIA30_I     1320 cagatcatttggaacaa   1336
+                     |||||        ||||
+ATCOPIA30        611 CAGAT--------ACAA    619
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      40/61 (65.6%)
+# Similarity:    40/61 (65.6%)
+# Gaps:          10/61 (16.4%)
+# Score: 103.5
+# 
+#
+#=======================================
+
+ATCOPIA30_I      486 agagccaaagaactagt--tcttagcatt--aattccta---gtattttt    528
+                     |||||.|.|..|||.||  |.||||..||  ||.|||||   ||||||.|
+ATCOPIA30          1 AGAGCAACACCACTCGTTGTTTTAGTTTTCCAACTCCTATTGGTATTTGT     50
+
+ATCOPIA30_I      529 --ctatcttct    537
+                       ||.| ||||
+ATCOPIA30         51 GCCTCT-TTCT     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1609
+# Identity:    1080/1609 (67.1%)
+# Similarity:  1080/1609 (67.1%)
+# Gaps:         348/1609 (21.6%)
+# Score: 4103.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      297 atataaaatatattattt---aatttgatattttatctagttaatattgc    343
+                     ||||..|||||||.|.||   |||||.||| .||||.||..||||.|||.
+ATCOPIA30          1 ATATTGAATATATAAATTACCAATTTTATA-ATTATATAACTAATTTTGT     49
+
+ATCOPIA30_I      344 aactattaaatgcccggtggtgaatgatgcaagcatgcattagagcatca    393
+                     |||||||.|..|||.|||||||..|||||||||||||.||||        
+ATCOPIA30         50 AACTATTCACAGCCTGGTGGTGGGTGATGCAAGCATGTATTA--------     91
+
+ATCOPIA30_I      394 ttattggtaggtttttaagaaattcttagcattaactttgacaaaaatta    443
+                             |.|||            ||||||||                 
+ATCOPIA30         92 --------ATGTT------------TTAGCATT-----------------    104
+
+ATCOPIA30_I      444 aatgaataattggtttaaattctaagaaccagctcttatataagagccaa    493
+                                                                   ||| 
+ATCOPIA30        105 ----------------------------------------------CCA-    107
+
+ATCOPIA30_I      494 agaactagttcttagcattaattcctagtatttttctatcttcttcgttt    543
+                                                                   ||||
+ATCOPIA30        108 ----------------------------------------------GTTT    111
+
+ATCOPIA30_I      544 tggatagttgc----atattcaatatagttcagttaatattttattatct    589
+                     .|.||||||||    |||||||||||.|||..||.||||||.||||.|||
+ATCOPIA30        112 CGAATAGTTGCATCTATATTCAATATCGTTTTGTAAATATTATATTGTCT    161
+
+ATCOPIA30_I      590 aaaattcttttacgattgattcaatattatttagttaa-tacttt-attt    637
+                     |||||.|.||||.|||||||.|.||||...|||.|||| |.|||| ||| 
+ATCOPIA30        162 AAAATCCATTTATGATTGATACGATATCCCTTATTTAACTCCTTTGATT-    210
+
+ATCOPIA30_I      638 ttgataattcatatttcacaaccatgatcgtcgtacatatattatta-ct    686
+                        |.|||                     ||..|||||||.||||.| ||
+ATCOPIA30        211 ---AAAAT---------------------GTTATACATATCTTATCACCT    236
+
+ATCOPIA30_I      687 tttgatattgactttt-catatgtagatagatatctaatattctgatttc    735
+                     ||.||||||||||||| |||||         ||   |||||| |||||||
+ATCOPIA30        237 TTAGATATTGACTTTTCCATAT---------TA---AATATT-TGATTTC    273
+
+ATCOPIA30_I      736 catatatttaatacttgattgttgattttcatatatttaatatttgattg    785
+                     |||                                    |||||||||||
+ATCOPIA30        274 CAT------------------------------------ATATTTGATTG    287
+
+ATCOPIA30_I      786 tcctattacttttttttaacaaaaagcgttagtcaacccaattctacgtt    835
+                     |..|||||  ||.||||.||.|||||.|||  .|||...||         
+ATCOPIA30        288 TGTTATTA--TTATTTTTACTAAAAGTGTT--GCAAGATAA---------    324
+
+ATCOPIA30_I      836 ttttaattttctatgaaactttccttgcaaagtaatactttattattata    885
+                     ||||..||||.||.||.||||          ||||||.||||||.||.||
+ATCOPIA30        325 TTTTCTTTTTATAAGATACTT----------GTAATATTTTATTTTTCTA    364
+
+ATCOPIA30_I      886 agataat-------tataatatcgttcagaaggaattgtctgtagtaaaa    928
+                     | ||..|       |.|||.|      |.||.|||        |..||||
+ATCOPIA30        365 A-ATCTTTGTGGCATCTAAAA------AAAACGAA--------AAAAAAA    399
+
+ATCOPIA30_I      929 tcgtctttg-taacagttctcat------aatttgcaataaaaataa-at    970
+                     .||  .|.| |||    |||.||      |||||.|..||.|||||| ||
+ATCOPIA30        400 ACG--ATAGATAA----TCTTATTTTGTGAATTTTCGTTACAAATAATAT    443
+
+ATCOPIA30_I      971 ctaagacgaaaaaaaagataattgtaatattttatttgttaatgtatttt   1020
+                     ||.|.....|.|||   |||..|||||||||||||||||||||.||||||
+ATCOPIA30        444 CTTATTGTTATAAA---ATATCTGTAATATTTTATTTGTTAATATATTTT    490
+
+ATCOPIA30_I     1021 gaaaattaacacatatttttttatttttgaaatcta-gtcatatttaatc   1069
+                     |||||||||||        |.||||.|||||||.|| .|.||||.|||||
+ATCOPIA30        491 GAAAATTAACA--------TATATTCTTGAAATTTATATGATATGTAATC    532
+
+ATCOPIA30_I     1070 aatt-tttttaatattttagtaaaccatgtc-aaaacttatgaatcttt-   1116
+                     |.|| ||||||||||||.|||.||.|||||| ||||||.||| |.|||| 
+ATCOPIA30        533 ATTTATTTTTAATATTTCAGTGAATCATGTCAAAAACTCATG-AGCTTTG    581
+
+ATCOPIA30_I     1117 aatttggaactcttgatatcacaggagataactatttggcattggtactg   1166
+                     ||||||||.|||||||||||||.|||||||||||.|||||||.||.|||.
+ATCOPIA30        582 AATTTGGAGCTCTTGATATCACGGGAGATAACTACTTGGCATGGGCACTA    631
+
+ATCOPIA30_I     1167 aatgctgaaatttatctagattcaaaagatctccttgataccatcaaaga   1216
+                     .|||||.|||||.|||||||||||||.||||||||||||||.||.|||||
+ATCOPIA30        632 GATGCTAAAATTCATCTAGATTCAAAGGATCTCCTTGATACTATTAAAGA    681
+
+ATCOPIA30_I     1217 tgggaatcaaactcaaagtaaagaaaaattagaagctatgatttttctgc   1266
+                     |||.||||||||||.|||.|||||.||||.|.||||||||||||||.|||
+ATCOPIA30        682 TGGTAATCAAACTCCAAGCAAAGATAAATCAAAAGCTATGATTTTTTTGC    731
+
+ATCOPIA30_I     1267 gataccatctccatgaggatctcaagaatgagtatttcagtgtgaaagat   1316
+                     ||.||||||||||.||||||||||||||||||||..|||.||||||||||
+ATCOPIA30        732 GACACCATCTCCACGAGGATCTCAAGAATGAGTACCTCAATGTGAAAGAT    781
+
+ATCOPIA30_I     1317 ccgcagatcatttggaacaatctaaagcacagttatgatcatgagaagac   1366
+                     ||.||||||.||||||||.||||||||.|.||.|||||||||.|.|||||
+ATCOPIA30        782 CCACAGATCCTTTGGAACGATCTAAAGGATAGGTATGATCATCAAAAGAC    831
+
+ATCOPIA30_I     1367 tatgatattatctaaggtccgatatgattggactcatctgagactccaag   1416
+                     ..||||.|||.||||||.||||||||||||||||||||||||||||||.|
+ATCOPIA30        832 AGTGATCTTACCTAAGGCCCGATATGATTGGACTCATCTGAGACTCCAGG    881
+
+ATCOPIA30_I     1417 actttaaatatgtaagttagtacaactcagccttattcaaaataac-ttt   1465
+                     |||.|||.|.|||||||.|||||||||||||.||.||||||||||| |..
+ATCOPIA30        882 ACTATAAGTCTGTAAGTGAGTACAACTCAGCTTTGTTCAAAATAACATCC    931
+
+ATCOPIA30_I     1466 aaattggaattatgtggagagaaaatgatggatgcagataagttggagta   1515
+                     ||||||||.|||||||||||||||||.|.|||||||||||||||||||.|
+ATCOPIA30        932 AAATTGGAGTTATGTGGAGAGAAAATCACGGATGCAGATAAGTTGGAGAA    981
+
+ATCOPIA30_I     1516 gacattctctactttttaatgctaataacattgtcttgcagacacagtac   1565
+                     .||||||||||| ||||.|||||||.||.||||||.|.||||||||||||
+ATCOPIA30        982 AACATTCTCTAC-TTTTCATGCTAAAAATATTGTCCTCCAGACACAGTAC   1030
+
+ATCOPIA30_I     1566 ggtgaaaagggattcgtgaagtattcccaacttatttcttgtctacttgt   1615
+                     .||||||||.|||||||.||||||||||||||||||||||||||..||||
+ATCOPIA30       1031 CGTGAAAAGAGATTCGTAAAGTATTCCCAACTTATTTCTTGTCTCTTTGT   1080
+
+ATCOPIA30_I     1616 agctgagaaaaacaatgagttacttttgaaaaaccatggactatgcccat   1665
+                     ||.||||||||||||||||||.|||||||||||||||||||||.||||||
+ATCOPIA30       1081 AGGTGAGAAAAACAATGAGTTGCTTTTGAAAAACCATGGACTACGCCCAT   1130
+
+ATCOPIA30_I     1666 caggttttgctttgttctctgaaacgaatgtgacatgctatggtcaaaaa   1715
+                     ||||||.||||...|||.|||||.||||||||||||.||||||||||.||
+ATCOPIA30       1131 CAGGTTCTGCTCCATTCCCTGAAGCGAATGTGACATCCTATGGTCAAGAA   1180
+
+ATCOPIA30_I     1716 agtggttacaac--------------------------------------   1727
+                     ||||||||||||                                      
+ATCOPIA30       1181 AGTGGTTACAACCATGGTTGTGGCCGTGGTCATGGTCGTGGTCGTGGTCG   1230
+
+ATCOPIA30_I     1728 ----cgtggtcgtggccgtgtatacactagaggactaggcagtggagttc   1773
+                         |||||||||||.||||.|||||||.||||||.|||||.||||||||
+ATCOPIA30       1231 CGGTCGTGGTCGTGGGCGTGGATACACTGGAGGACGAGGCAATGGAGTTC   1280
+
+ATCOPIA30_I     1774 attttaagaactcaaactctcataagaagtgggaaaaca---atgggacc   1820
+                     |.||||||||||||||||||||.||||||||||||||||   ||||.|  
+ATCOPIA30       1281 ACTTTAAGAACTCAAACTCTCACAAGAAGTGGGAAAACAAAGATGGTA--   1328
+
+ATCOPIA30_I     1821 tcaaagaag   1829
+                     .||||.|||
+ATCOPIA30       1329 ACAAACAAG   1337
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:      53/121 (43.8%)
+# Similarity:    53/121 (43.8%)
+# Gaps:          61/121 (50.4%)
+# Score: 121.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I     1223 tcaaactcaaagtaaagaaaaattagaagctatgatttttctgcgatacc   1272
+                     |||||||.|.||.|||              |||            |||||
+ATCOPIA30          4 TCAAACTTATAGCAAA--------------TAT------------ATACC     27
+
+ATCOPIA30_I     1273 atctccatgaggatctcaagaatgagtatttcagtgtgaaagatccgcag   1322
+                                ||||     ||| ||.|||         |||||   ||.
+ATCOPIA30         28 -----------GATC-----AAT-AGAATT---------AAGAT---CAA     48
+
+ATCOPIA30_I     1323 atcatttggaacaatctaaag   1343
+                     ||| ||||     ||..||||
+ATCOPIA30         49 ATC-TTTG-----ATGAAAAG     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 820
+# Identity:     321/820 (39.1%)
+# Similarity:   321/820 (39.1%)
+# Gaps:         428/820 (52.2%)
+# Score: 613.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I       82 tttttctattattgaaacaaacaatatgagccgatcgataattatgatat    131
+                     |.||.||||.||   |.||||                |||||        
+ATCOPIA30          1 TATTACTATAAT---ACCAAA----------------ATAAT--------     23
+
+ATCOPIA30_I      132 agattggtaaaag-catgttttcaatgattca-gtaaa-gaagataatca    178
+                       |||    |||| ||    |||||  ||..| .|||| |||.|||    
+ATCOPIA30         24 --ATT----AAAGACA----TTCAA--ATAAATATAAATGAAAATA----     57
+
+ATCOPIA30_I      179 tgcttaccatttatttatctaattattatagcatgattcaatgattctat    228
+                               |||.|||||     ||||||       .|||| |||.|||
+ATCOPIA30         58 ----------TTACTTATC-----ATTATA-------ACAAT-ATTGTAT     84
+
+ATCOPIA30_I      229 aaagaaaatcgtcaaaaaaaaagaatcatgtttgttgattgttaatttat    278
+                     ||                                        ||.|||||
+ATCOPIA30         85 AA----------------------------------------TATTTTAT     94
+
+ATCOPIA30_I      279 gtgaaatctattataataatataaaatatattatttaatttgat--attt    326
+                     ..|||||.||.|.|||                       |||||  |||.
+ATCOPIA30         95 CAGAAATATAGTGTAA-----------------------TTGATGAATTG    121
+
+ATCOPIA30_I      327 tatctagttaatattgcaactattaaatgcccggtggtgaa-tgatgcaa    375
+                     |||.||||.||                      |||||.|| ||.|    
+ATCOPIA30        122 TATTTAGTCAA----------------------GTGGTTAACTGTT----    145
+
+ATCOPIA30_I      376 gcatgcattagagcatcattattggtaggtttttaagaaattcttagcat    425
+                                  ||.|.|||    |||.||..|||        |||   
+ATCOPIA30        146 -------------CACCTTTA----TAGCTTCCTAA--------TAG---    167
+
+ATCOPIA30_I      426 taactttgacaaaaattaaatga-ataattggtttaaattctaagaacca    474
+                         |||||| ...|||||||.| ||.|||        ||..|||     
+ATCOPIA30        168 ----TTTGAC-TCTATTAAATCACATTATT--------TTGCAAG-----    199
+
+ATCOPIA30_I      475 gctcttatataagagccaaagaactagttcttagcattaattcctagtat    524
+                              |||     ||||||                           
+ATCOPIA30        200 ---------TAA-----AAAGAA---------------------------    208
+
+ATCOPIA30_I      525 ttttctatcttcttcgttttggatagttgcatattcaatatagttcagtt    574
+                                .||.|||.|||||     ||.|||        ||  |||
+ATCOPIA30        209 -----------TTTGGTTATGGAT-----CAGATT--------TT--GTT    232
+
+ATCOPIA30_I      575 aatattttattat-ctaaaattcttttacgattgattcaatattatttag    623
+                     |  ||.|.||.|| ||||||      .|..||.|.|..||||.|     |
+ATCOPIA30        233 A--ATCTAATGATGCTAAAA------AAAAATAGGTAGAATAGT-----G    269
+
+ATCOPIA30_I      624 ttaatactttatttttgataat--tcatatttcacaaccatgatcgtcgt    671
+                     .||.|||||| |||.|||.|||  .||                       
+ATCOPIA30        270 CTATTACTTT-TTTCTGAAAATGGGCA-----------------------    295
+
+ATCOPIA30_I      672 acatatattattacttttgatattgacttttcatatgt--agatagatat    719
+                       |||||         |||||            |||||  |.|||||   
+ATCOPIA30        296 --ATATA---------TTGAT------------TATGTTCACATAGA---    319
+
+ATCOPIA30_I      720 ct---aatattctgatttccatatatttaatacttgattgttgattttca    766
+                     ||   ||||         .|| |||||.|||||                 
+ATCOPIA30        320 CTGAAAATA---------ACA-ATATTAAATAC-----------------    342
+
+ATCOPIA30_I      767 tatatttaatatttgattgtcctattacttttttttaacaaaaagcgtta    816
+                       ||||.||||      ||.|.||          ||||.|||||    ||
+ATCOPIA30        343 --TATTAAATA------TGCCATA----------TTAAGAAAAA----TA    370
+
+ATCOPIA30_I      817 gtcaacccaattctacgttttttaattttctatgaaactttccttgcaaa    866
+                     .|.||                 ||||          |||||      |||
+ATCOPIA30        371 TTGAA-----------------TAAT----------ACTTT------AAA    387
+
+ATCOPIA30_I      867 gtaatactttattattataa    886
+                     ..|.||.|||.|||..|.||
+ATCOPIA30        388 AAATTAATTTGTTACCAAAA    407
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA30_I
+# 2: ATCOPIA30
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 514
+# Identity:     235/514 (45.7%)
+# Similarity:   235/514 (45.7%)
+# Gaps:         221/514 (43.0%)
+# Score: 519.0
+# 
+#
+#=======================================
+
+ATCOPIA30_I      565 tagttcagtta--atattttat-tatctaaaattcttttacgattgattc    611
+                     |.|||||||||  |.||.|.|| || .|||.|       |||.|||    
+ATCOPIA30          1 TCGTTCAGTTATGAAATGTCATGTA-ATAAGA-------ACGCTTG----     38
+
+ATCOPIA30_I      612 aatattatttagttaatactttatttttgataattcatatttcacaacca    661
+                                       |.|.|||||..||             |||  |
+ATCOPIA30         39 ------------------CGTCATTTTCTAT-------------CAA--A     55
+
+ATCOPIA30_I      662 tgat------cgtcgtacatatattattact-tttgatattgacttttca    704
+                     ||||      ||||.||.|||       ||| .||||     ||   |||
+ATCOPIA30         56 TGATTTACCCCGTCATAAATA-------ACTCGTTGA-----AC---TCA     90
+
+ATCOPIA30_I      705 tatgtagatagatatctaatattctgatttccatatatttaatacttgat    754
+                     |||.|                           ||||||||..|||||   
+ATCOPIA30         91 TATAT---------------------------ATATATTTCTTACTT---    110
+
+ATCOPIA30_I      755 tgttgattttcatatatttaatatttgattgtcctatt-actttttttta    803
+                                ||| |||||.|              || |||.|||.|.|
+ATCOPIA30        111 -----------ATA-ATTTAGT--------------TTAACTATTTATGA    134
+
+ATCOPIA30_I      804 acaaaaagcgttagtcaacccaattctacgttttttaattttctatgaaa    853
+                     ||                                 |.||.|..|.|||||
+ATCOPIA30        135 AC---------------------------------TCATGTAGTGTGAAA    151
+
+ATCOPIA30_I      854 ctttccttgcaaagtaatactttattatta-taagataatta--taatat    900
+                     |.||      |||  ||...||||||..|| .|||||..|||  .|||||
+ATCOPIA30        152 CATT------AAA--AAGTTTTTATTGGTAGAAAGATTTTTAGTGAATAT    193
+
+ATCOPIA30_I      901 cgttcagaaggaattgtctgtagtaaaatcgtctttgtaacagttctcat    950
+                     |         .|||         |||.|      ||.|||      |.|.
+ATCOPIA30        194 C---------TAAT---------TAAGA------TTTTAA------TTAG    213
+
+ATCOPIA30_I      951 aatttgcaa---taaaaataaatctaag-acgaaaaaaaagataattgta    996
+                     .||||.|||   ||||||||.|   ||| |.|.|||..||.||||||.| 
+ATCOPIA30        214 CATTTTCAAAGTTAAAAATATA---AAGCAAGTAAACCAAAATAATTCT-    259
+
+ATCOPIA30_I      997 atatttta--tttgttaatgtattttgaaaattaacacatatttttttat   1044
+                        |.|||  |||..|||.|||||||..||||||    |||||||..|||
+ATCOPIA30        260 ---TGTTAATTTTCGTAAAGTATTTTTCAAATTA----ATATTTTACTAT    302
+
+ATCOPIA30_I     1045 ttttg---aaatct   1055
+                     |||||   ||||||
+ATCOPIA30        303 TTTTGTAAAAATCT    316
+
+
+#---------------------------------------
+#---------------------------------------
