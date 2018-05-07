@@ -1,0 +1,73 @@
+****1er Février 2018****
+
+Questions:
+-Dans ma famille d'ET des copies sont-elles susceptibles interagir avec un gene de mon hote?
+-Arabidopsos thaliana
+-Objectifs:
+	1) caractériser copie de la famille
+	2) estimer/derterminer si certaines copies de la famille sont à côté de gènes de l'hôte
+	3) est-ce que les copies en quesiton ont des régions régulatrices complètes et/ou sont complètes
+
+1) Ressources
+Repbase -> banque de séquences de référence des ET chez arabette
+TAIR -> Arabidopsis Information Resource: Download -> TAIR10 -> chromosome files
+
+1 binome ->	DNA transposon (min 7 copies)
+				LTR ET
+				non LTR
+
+pour chaque famille récupérer une référence
+
+
+Installation:-linux docker container: done
+			-package emboss: done
+			-postgre SQL: done
+
+
+
+****8 Février 2018****
+
+Fichiers TAIR10 viennent de TAIR le 01/02/18
+
+trouver dans le fichier: TAIR10_Transposable_Elements avec les filtres unix
+	nb copies d'ET sur chaque K?
+		for i in {1..5}; do echo "Chromosome "$i; grep ^AT$i TAIR10_Transposable_Elements.txt | wc -l; done
+			Chromosome 1
+			7135
+			Chromosome 2
+			5949
+			Chromosome 3
+			6461
+			Chromosome 4
+			4967
+			Chromosome 5
+			6677
+
+	liste des familles et nombre par famille
+		awk '{print $5}' TAIR10_Transposable_Elements.txt | sort | uniq -c
+
+	principaux types d'ET
+		awk '{print $6}' TAIR10_Transposable_Elements.txt | sort | uniq
+		awk '{print $6,'\t',$5}' TAIR10_Transposable_Elements.txt | sort -k1 | uniq -c
+
+
+
+trouver 1 DNA, 1 LTR, 1 LINE
+
+DNA/MuDR  VANDAL14 -- 25
+LTR/Copia  ATCOPIA30 -- 33
+LINE/L1  ATLINE1_2 -- 41
+
+
+
+****15 Février 2018****
+
+Ecriture d'un script python pour extraire les différentes séquences des copies
+
+
+****22 Février 2018****
+
+-Transformation embl -> fasta: seqret VANDAL14_ref.txt
+
+Smith-waterman
+Blast
